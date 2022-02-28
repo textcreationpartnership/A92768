@@ -1,0 +1,978 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sea-cabbin dialogue, between two travellers lately come from Holland Translated out of Dutch; and dedicated to all those who desire to understand things rightly.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1652</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 117 KB of XML-encoded text transcribed from 34 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A92768</idno>
+            <idno type="STC">Wing S2166G</idno>
+            <idno type="STC">ESTC R230267</idno>
+            <idno type="EEBO-CITATION">99895962</idno>
+            <idno type="PROQUEST">99895962</idno>
+            <idno type="VID">153578</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A92768)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 153578)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2371:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sea-cabbin dialogue, between two travellers lately come from Holland Translated out of Dutch; and dedicated to all those who desire to understand things rightly.</title>
+               </titleStmt>
+               <extent>[2], 22; [2], 38 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by T.M.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1652.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"The second part of the Holland-sea-cabbin-dialogue" has a separate dated title page, pagination and register.</note>
+                  <note>Reproduction of original in the Folger Shakespeare Library, Washington, D.C..</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Conduct of life --  Early works to 1800.</term>
+               <term>Satire, English --  Early works to 1800.</term>
+               <term>Merchants, Foreign --  England --  Early works to 1800.</term>
+               <term>Netherlands --  Foreign relations --  Great Britain --  1648-1714 --  Early works to 1800.</term>
+               <term>Great Britain --  Foreign relations --  Netherlands --  1648-1714 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2014-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-02</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2014-02</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:153578:1"/>
+                  <p>A SEA-CABBIN DIALOGUE, Between two Travellers lately come from HOLLAND.</p>
+                  <p>
+                     <hi>Tranſlated out of Dutch; And Dedicated to all thoſe who deſire to underſtand things rightly.</hi>
+                  </p>
+                  <p>
+                     <hi>LONDON,</hi> Printed by <hi>T. M.</hi> 1652.</p>
+               </div>
+            </front>
+            <body>
+               <div type="dialogue">
+                  <pb facs="tcp:153578:2"/>
+                  <pb n="1" facs="tcp:153578:2"/>
+                  <head>
+                     <hi>A Sea-Cabbin-Dialogue,</hi> Between two Travellers, lately come from <hi>HOLLAND.</hi>
+                  </head>
+                  <stage>Viz. <hi>Kitt</hi> and <hi>Boulton.</hi>
+                  </stage>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>WIll it not be imagined that theſe But<g ref="char:EOLhyphen"/>ter box Flemings are enfatuated for their weighing Anchor, and hoiſing their Sails towards <hi>England,</hi> to doe Pennance there for their brethrens miſdemeanors at <hi>Amboyna,</hi> and to pay an after-rec<g ref="char:EOLhyphen"/>koning for the once Cautionary Towns? As alſo to be talkt withall concerning the Fiſhing in that Sea, which without the permiſſion of the Engliſh Nation, muſt be to them <hi>Mare clauſum,</hi> and not <hi>Liberum,</hi> not<g ref="char:EOLhyphen"/>withſtanding late <hi>Grotius</hi> his opinion and Rethorick. Beſides, all the due af-recknings, and liquidations for ſeverall injuries, depradations, detentions, ſpoils and the like. Truly, it ſeems to me a meer riddle (I ſay) why thoſe wiſe and grave States-men, who have ſo manfully with-ſtood the <hi>Don Deigos de matta-mores,</hi> and all the power of the <hi>Auſtrian</hi> adherents; ſhould be induced to ſubmit themſelves to any other law ſave the Cannon? And why they ſhould not make uſe of <hi>Dunkirk</hi> (that ſecond commodious <hi>Algier</hi> Pi<g ref="char:EOLhyphen"/>rats Neſt) whence they might have lanched forth Squadrons of Fire-ſhips on the Engliſh-fleets, and might have taken the opportunities of Winds, Tides,
+<pb n="2" facs="tcp:153578:3"/> and dark nights to ſend them into the very Sea-ports, nay up as high as <hi>London-bridge.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Why not? <hi>Canutus</hi> the Dane did once do the like before, for all the ſhips watcht that Rode in the River: And what did not thoſe States Admiral <hi>Hemſ<g ref="char:EOLhyphen"/>kerck</hi> attempt and goe through within the Bay, and under the Fort of <hi>Gibraltar?</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit</speaker>
+                     <p>I marry: And why ſhould not they blow up the ſhips on the coaſt, by ſuch a like engine, as <hi>Corne<g ref="char:EOLhyphen"/>lius Drebbell</hi> invented? which was to ſwim betwixt two waters; and the which is practiſed by too many wicked men in this age. It is apparent that the Common-wealth of <hi>England</hi> is as ſubtile as <hi>Jacob:</hi> But why ſhould the Hoghen Mogen ſell their Birth<g ref="char:EOLhyphen"/>right? For (I pray you) what would the Engliſh get by a breach, nought ſave blows?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>And what would the Hoghen Mogens get by the bargain?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>By a Peace with the Hoghen Mogens, I con<g ref="char:EOLhyphen"/>feſſe the Engliſh will have made juſt ſuch a Feaſt as the Fox and Crane did; and it would be but accord<g ref="char:EOLhyphen"/>ing to the Dutch old ſaying; They would ſhear the Sheep, and leave the ſhearing of the Hogs to the <hi>Hol<g ref="char:EOLhyphen"/>landers.</hi> But ſince they have bought up all the <hi>Weſt<g ref="char:EOLhyphen"/>phalia</hi> bacon (to make fire-ſhips withall) they will be ſuch gueſts unto the Engliſh, as <hi>Sampſons</hi> Foxes were to the <hi>Philiſtines;</hi> for that they would be ſoon conſtrained to change their entertainment: They may therefore amuſe the Engliſh with a pratie, or a tale in a Tub; that ſo whileſt they are a feaſting on Cuſtards and Bag puddings, the Butter-box-Flem<g ref="char:EOLhyphen"/>mings may have time to buy up all the Pitch, Tar and Maſts, from the frozen parts; that ſo in the mean while their landſmen may get off their goods.</p>
+                  </sp>
+                  <sp>
+                     <pb n="3" facs="tcp:153578:3"/>
+                     <speaker>Boul.</speaker>
+                     <p>I, and all the Timber from the Black-ſea, where the grand <hi>Signior</hi> builds his Gallies.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Ket.</speaker>
+                     <p>Nay, you need not to jeſt? I am in earneſt.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Nor do I; for that I am fully perſwaded, in caſe the Engliſh agree not with them; they will as then have had time enough to be poſſeſt of all ſuch things, whereof the Engliſh ſtand in need; and the preſent want whereof would for ever make the Eng<g ref="char:EOLhyphen"/>liſh uncapable to ſupply, and make good their Fleets.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Ket.</speaker>
+                     <p>And they muſt expect as aforeſaid to meet nought ſave blows: For that <hi>Kees</hi> kneleſſen will fall too his Sable-cutter, and his <hi>Graveſand</hi> Cheeſe buck<g ref="char:EOLhyphen"/>ler, and will pay it home with a <hi>Te meer den hoop te meer ſmiit<gap reason="illegible" resp="#MURP" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>ick daer doot,</hi> the more in number, the more I ſhall be ſure to kill; for in a word, it is but too appear, that in caſe the Engliſh be let alone, they will become ſo mighty, as that they will en<g ref="char:EOLhyphen"/>force Laws on others, and that new Laws too; do we not already ſee that they ſpeak in a known lan<g ref="char:EOLhyphen"/>guage, and not at all in heathen greek? The <hi>Hollan<g ref="char:EOLhyphen"/>ders</hi> have hitherto ſaid, <hi>Striike ende ſet;</hi> but the <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> will ſtrike at the beſt of the traffiques, profits, and ſo ſet out laws for their Neighbours? Are they not become ſuch skilfull gameſters, as that they have gi<g ref="char:EOLhyphen"/>ven check-mate to King, Queen, and what not?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul</speaker>
+                     <p>And I pray you, have the Hoghen Moghens done much leſſe?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>The Duke <hi>d' Alva,</hi> the Cardinal <hi>Gramvel,</hi> and <hi>Don John</hi> of <hi>Auſtria</hi> were the cauſes thereof, by their cruel &amp; tyrannical forcing of the conſciences of men; by their entrenching on the Liberties, Lives, and E<g ref="char:EOLhyphen"/>ſtates of every rational breathing ſoul amongſt them. For my part, if I were to determin this caſe, I would have the <hi>Hollanders</hi> ſtand it out at any rate, ſince of all
+<pb n="4" facs="tcp:153578:4"/> Nations that ever made wars, they alone have enrich<g ref="char:EOLhyphen"/>ed themſelves thereby: Now ſuppoſe the Engliſh be at Peace with them, why as then they will ſweep away all the profits of the traffique? But if the <hi>Hollan<g ref="char:EOLhyphen"/>ders</hi> ſtand it out, it will remain theirs; and they will likewiſe have a concourſe of all the beſt Engliſh Sea<g ref="char:EOLhyphen"/>men, who affect the Royall Party; beſides, the <hi>French, Danes,</hi> and who not? All which will be <hi>Striike ende Set,</hi> with them.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Truly, me thinks your diſcourſe ſavours much of an Arch-fire-brand; and not as that of one who ſhould have learned to practiſe the <hi>Hollanders</hi> too ancient main ſayings, viz. <hi>Houdt vaſt ende beleght;</hi> that is, hold faſt and contrive: Secondly, <hi>Het is goet met een gheſondeheigt te bedde te gaen;</hi> it is good ſleeping in a whole skin. And as for the Hoghen Mogens, they are wiſe, and know by a long experience, what Nation is beſt to live in peace withall; ſo likewiſe do they know, that Saw-duſt and Sand cannot make good Morter; Even ſo, any Nation that is of a con<g ref="char:EOLhyphen"/>trary Religion cannot compoſe ſo firm an amity, but they will alwayes be ſubject to change.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>What talkeſt thou of Religion? that's a pretty toy indeed to reflect on in this age: would not many at the preſent ſay as an eminent Perſon during the laſt Baricadoes of <hi>Paris</hi> did, to wit, <hi>Le Dieu de ces temps ſont de venu trop vieux ill en fault Mouler d'autres;</hi> That the gods of thoſe times (meaning the ſtone idols in the Papiſts Churches) were become ſo old, as that they needed to be new moulded.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>But I pray you interrupt me not; I have not ſtopt you in your carreare: The <hi>Hollanders,</hi> I ſay, are well acquainted with the power of the Engliſh Nati<g ref="char:EOLhyphen"/>on, both by Land and Sea.</p>
+                  </sp>
+                  <sp>
+                     <pb n="5" facs="tcp:153578:4" rendition="simple:additions"/>
+                     <speaker>Kit.</speaker>
+                     <p>By Land! they are fierce blades indeed, and a plain knock-down, pell-mell, is their greateſt skill, as Count <hi>Harcourt</hi> obſerved of them; as long as they might lie in beds, have their good-ale at their Noſes, and their Night-caps on their heads; ſo likewiſe hath experience manifeſted their great exploits at Sea, viz. <hi>Cales</hi> and <hi>Rochell.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>I, but theſe are old ſtories; that was a fooling age, wherein men and their followers were charmed by love toyes; even as <hi>
+                           <g ref="char:V">Ʋ</g>lyſſes</hi> his men were by <hi>Circes.</hi> The Engliſh preſent warriours, think more on the lay<g ref="char:EOLhyphen"/>ing of their enemies in the duſt then of powdering their haires; they fight and pray, as <hi>Moſes</hi> and the <hi>Iſraelites</hi> did.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>In this kinde, you ſeem to talk of Saints, but I pray you, doth not the world conceive the contrary of ſome of them?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Puf! the world is a Fools-cap; there is no gold without ſome droſſe, before it be ſeven-times refined.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>I, but when will that be, at Doomſday think you?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>I beſeech you let me proceed, (and ſtop your fierd-brand vain) Do not the Engliſh as they lye in their beds, ſee through their Windows the Hol<g ref="char:EOLhyphen"/>landers fleet ſailing too and again along their Coaſts? Were not the Hollanders conſtrained to adviſe their Indian Squadrons to ſaile about; when the buſineſſe of <hi>Amboina</hi> was firſt reported? May they not be taken every where, and every day? Have the Hoghen Moghen ſo many Shires of firm ground as the Engliſh? And whereon Nations may live happily, and may make the Seas the parting-wals
+<pb n="6" facs="tcp:153578:5"/> betwixt that great Nation, that careth not whe<g ref="char:EOLhyphen"/>ther any come amongſt them or no? In <hi>England</hi> all the Elements are good, among the Dutch all the Ele<g ref="char:EOLhyphen"/>ments are bad; the Engliſh have within themſelves whatſoever they need; the Dutch have nothing of all they want, ſave Butter, Cheeſe and Fiſh. And for all the fire-brand-like expreſſions of the firing of Fleets at Sea, in Ports and Harbours, nay, the very Stairs of <hi>London</hi> Bridge Tavern; though it be granted that all the Canon ſhot from the Block-houſes at <hi>Graveſend</hi> ſhould doe no harm againſt ſuch Barks as might take the opportunity of Windes, and Tides, and dark nights; though Men-of-war riding on the River, and be lovingly linkt together with Cable-bracelets, ſhould not be capable to hinder the paſſages of ſuch Boats no more then the Damiaten chains could im<g ref="char:EOLhyphen"/>pedite the <hi>Belgians</hi> fetching away of the ſilver Bells which are at <hi>Harlem:</hi> Finally, ſuppoſe that men ſhould be ſo moapiſh as to believe the old ſtories which Mother <hi>Shipton</hi> recounted in a Chimney-cor<g ref="char:EOLhyphen"/>ner, or ſuch like which Almanack makers have di<g ref="char:EOLhyphen"/>vulged on the ſame ſcore, when as they wanted mony to clear thoſe which they had made in Ale-houſes and Tobaco-ſhops. In the mean while, I pray, have not the Engliſh Bacon to make Fire-ſhips withall, as well as the Hollanders? can they not make uſe of <hi>Drebbels</hi> or ſuch like inventions, to drive between two waters, and to get under any of their adverſe parties ſhips? And when as you talke of <hi>Dunkirk,</hi> cannot the Eng<g ref="char:EOLhyphen"/>liſh ſtop up that Harbour, or any other they ſhall have a minde unto? As it was intended, during the late breach between <hi>Spain, France,</hi> and <hi>England.</hi> Really, I am of an opinion, that neither the Engliſh nor the
+<pb n="7" facs="tcp:153578:5"/> Dutch will be ſo far overſhot in the true principles of State, as to be diverted by bravado's, far leſſe by ſcare<g ref="char:EOLhyphen"/>crows; <hi>viz.</hi> the pretended impoſsibility of an a<g ref="char:EOLhyphen"/>greement betwixt them; The General States may ever remember their own ſaying, <hi>Concordia res parvae creſcunt, magna dilabuntur;</hi> they have done well, wiſe<g ref="char:EOLhyphen"/>ly, and like themſelves in going for <hi>England,</hi> where they may try what may be done in a friendly way: when as the Engliſh will alſo doubtleſſe be ſo wiſe as to remember the Scripture ſaying, viz. <hi>Beati pacifici,</hi> and to accept of poſſibilities, as well as of conveni<g ref="char:EOLhyphen"/>encies. Moreover, I am confident that this will fall out according to the Marquis of <hi>Spinola's</hi> uſual ſay<g ref="char:EOLhyphen"/>ing, who was of an opinion, that Treaties ought ne<g ref="char:EOLhyphen"/>ver to be refuſed, viz. <hi>Entretenemos à eſſa platica;</hi> let us entertain this parley: ſo likewiſe, doe the Dutch alſo ſay, <hi>Tuſchen loven ende bieden, vergaederen end ver<g ref="char:EOLhyphen"/>eenighen de lieden,</hi> between asking and bidding chap<g ref="char:EOLhyphen"/>men aſſemble and agree: The rigour of the law, (it is true) demands the life, but the Judge doth for the moſt part ſuffer the party to be freed by a more eaſie ſatisfaction.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>It ſeems then that you minde an agreement, and not to ſay as the French, <hi>viz. Il fait bon peſcher en eau trouble,</hi> Its good fiſhing in muddy water.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Why, truly I ever minded, it according unto the Italian ſaying, <hi>Qui piſſa chara gaba el medico,</hi> He that makes clear water may laugh at the Phyſitian. I did ever endeavour to perſwade all men to agree, and when as I found parties to be at ſuch a diſtance, and at ſuch an enmity together, as that it was requiſite to uſe art in the reconciling of them, as then I endea<g ref="char:EOLhyphen"/>voured to deceive them both by a lawfull ſtratagem, onely to make them friends.</p>
+                  </sp>
+                  <sp>
+                     <pb n="8" facs="tcp:153578:6"/>
+                     <speaker>Kit.</speaker>
+                     <p>But how could you make that good, ſince de<g ref="char:EOLhyphen"/>ceits is alwayes to be abhorred?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Deceit in ſuch like punctilo's is not only law<g ref="char:EOLhyphen"/>full but very neceſſary; as for example, When a <hi>Span<g ref="char:EOLhyphen"/>yard</hi> is to be treated withall, he muſt be made believe (by reaſon of his haughty humour and high ſpirit) that his adverſe party ſeeks him: And truly, the Ho<g ref="char:EOLhyphen"/>ghen Moghen, (be it ſpoken without offence) were ſo well acquainted with their own ſtrength, as that they would hardly have been induced to yeeld unto a parley with the Spanyards, had they not been made to believe that <hi>Speck-John</hi> (as they call the Spanyard) was out of breath; and were glad to lay their heads, as it were, on the block: To inſtance herein, I ſhall only alledge the effects of ſome words, which unfortu<g ref="char:EOLhyphen"/>nately were uttered by the Chancellour of <hi>Brabant, Peckius,</hi> in a Speech which he had intended to make unto the General States, at the expiration of their twelve years Truce; when as he onely ſaid thus, viz. <hi>That it was conceived, thoſe States had as then had time enough to bethink themſelves, whether or no, it were not fit for them to reunite themſelves with the King of</hi> Spain. At which very words, the Aſſembly roſe, interrupted his ſpeech, and rejected the Treaty; Declaring unto the ſaid <hi>Peckius,</hi> that all the favour they could ſhew unto him, was to ſave him from the Turff-wives rage at <hi>Delft,</hi> as he paſt through that place in his journey homewards.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>According unto your computation therefore, the Hoghen Moghen and Engliſh muſt needs agree; for you would as I perceive have the one to offer fair, and the other to take leſſe, and thereby gull all the fire-brands whatſoever: a match it muſt needs be to
+<pb n="9" facs="tcp:153578:6"/> your thinking, but ſay you ſo? why as then for all this the Hollanders will be too hard for the Engliſh howſoever.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Leſſe of your brags, I pray.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>What I urge ſtands with common ſenſe and reaſon, and I will make it good.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>I ſhall laugh at that heartily.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>They may agree, that I grant you; and re<g ref="char:EOLhyphen"/>main in poſſeſſion of <hi>Eſau</hi>'s Pottage to boot: and yet nevertheleſſe the Engliſh ſhall never attain unto thoſe advantages which the Hollanders poſſeſſe.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>I ſhould wonder if you could clear me that point?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>I ſhall eaſily doe it, and though I may prove to be very plain with you; yet you ſhall finde that I ſhall ſtrike home to the marrow: therefore do but obſerve what I ſhall relate unto you, <hi>viz.</hi> The old Princes of <hi>Orange, William, Maurice,</hi> and <hi>Frederick Hen<g ref="char:EOLhyphen"/>drick,</hi> (that compleat number of admirable Patriots) who having taken a ſurvey of the united States Gene<g ref="char:EOLhyphen"/>ral affairs, pitcht at firſt on thoſe expedients, where<g ref="char:EOLhyphen"/>by they might make them Potent, Rich, and Secure for ever; which they effected, and gained the peoples love to boot: Firſt, by their ſettling of the publique Security, or Faith; and ſecondly, by the reducing of the value of monies; and in this manner they ſecu<g ref="char:EOLhyphen"/>red themſelves, and attracted all Nations; I ſay, all Nations, and not ſo onely, but their Subſtances and Stocks to boot. Moreover, they ſetled a Record Of<g ref="char:EOLhyphen"/>fice, whereby they prevented all kinde of cheats and deceits whatſoever, either in Sales, Tranſactions, or Morgages, and whereby they alſo got in a little ſpace of time many millions of pounds in ready monies, as
+<pb n="10" facs="tcp:153578:7"/> alſo a conſiderable yearly revenue, and the love of all men. They permitted Liberty of Conſcience, the contrarys whereof loſt the King of <hi>Spain</hi> thoſe ſaid Province. They eſtabliſhed Banks of Loan, and of Sale, whereby all needy perſons were relieved; they thereby abolliſhed and extirpated all Lombards and Jewiſh Brokers, who (as the Engliſh Uſurers do) take 30, 40, and more <hi>per Cent.</hi> Uſe, and who gave ſuch exceſſive rates for money, as that none could be had at any reaſonable condition. They eſtabliſhed a Bank of payment, whereby the credits of all Negotiants was raiſed. They impoſed eaſie cuſtoms on all man<g ref="char:EOLhyphen"/>ner of Importations and Exportations by Forreigners; like unto the French, who permitted ſtrangers to ex<g ref="char:EOLhyphen"/>port their Salt for eight ſhillings the Buſhel, when as the Natives pay foure pounds ſterling for the ſame. And by theſe means they reduced the valuation of monies, and its Uſe unto 3, and 4, <hi>per Cent.</hi> whereby they got ſuch a vaſt ſtock of monies, as that they were able to buy and ſell all kinde of Wares at far better rates then any other Nations could doe. And theſe are the main cauſes, why the Engliſh, nor any other Nation whatſoever, ſhall not be able to out-vie them, by reaſon that they are not in a capacity to equall them therein: Beſides, their thriftineſſe in manning their ſhips with a leſſe number of men then others, &amp; alſo their more ſparingnes in Dyet. And as by theſe courſes they have made themſelves potent, rich, and ſecure: ſo have they alſo from time to time made uſe of ſeveral main advantages, which were not ſo much reflected on by others; nay, which is worſe, willfully neglected: Ha! <hi>Dunkirk,</hi> Ha! <hi>Hollanders</hi> and <hi>French,</hi> for having gotten the hand of the Engliſh in the Cloth
+<pb n="11" facs="tcp:153578:7"/> commoditie? And have they not made all Nations to be even doating on their Clothes: As for Fullers Earth, alas they want not that neither!</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>And what have you elſe to ſay, I pray?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Why? nought. ſave that <hi>Dunkirk</hi> that ſame <hi>Dunkirk</hi> will pay the Engliſh home one day.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>I profeſſe unto you, I am grieved to ſee you ſo much miſtaken, and ſo exorbitantly to continue your brags in this kind; and ſince they are meerly ſuch, I ſhall take a little further pains to undeceive you hereon; for that you muſt needs take notice how that the Common-wealth of <hi>England</hi> both can, and will at their own conveniency ſettle all ſuch eſta<g ref="char:EOLhyphen"/>bliſhments, as the Hollanders have made uſe off; be<g ref="char:EOLhyphen"/>ſides many others which may ſtand with the good and honour of the Engliſh Nation.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>
+                        <hi>I,</hi> but when <hi>I</hi> pray? Hath there not been a Bill diſcours'd of long ſince for the eſtabliſhing of a Record-office, and have any of the Propounders ever as yet acquainted the Parliament with the many millions of pounds, which will thereby accrew within the very firſt ſix weeks time of its erectment, together with the love, eaſe and applauſe of the Peo<g ref="char:EOLhyphen"/>ple; beſides, one hundred and forty thouſand pounds ſterling yearly revenew to boot? True it is, that ſomething hath been ſpoken of ſmal Fees unto Clarks, but what is that to the State? Moreover what courſe hath there been all this while taken againſt the tranſporting of Fullers-earth? as if a publique theft were not as puniſhable by death as a particular robbery?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Theſe things its true touch to the quick, ſo likewiſe need you not to fear but that they will be heeded.</p>
+                  </sp>
+                  <sp>
+                     <pb n="12" facs="tcp:153578:8"/>
+                     <speaker>Kit.</speaker>
+                     <p>
+                        <hi>I,</hi> but what ſay you on the particular of <hi>Dun<g ref="char:EOLhyphen"/>kirk?</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>I profeſſe unto you, that I have not ſaid half of that which lyeth on my heart, nor the leaſt part of that which is even at my tongues end.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>
+                        <hi>I</hi> ſee you would fain ſhift off the ſatisfying of me on the Cloth-trade, and on the particular of <hi>Dun<g ref="char:EOLhyphen"/>kirk.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>There is an expedient in reſerve, whereby the Cloath-trade may be made more worth unto the Engliſh, then the golden mines are to the King of <hi>Spain;</hi> and the reſolves thereon may be of as great a conſequence as any thing that hath as yet been deba<g ref="char:EOLhyphen"/>ted; And as for <hi>Dunkirk,</hi> were there many ſuch like, they might be curbed, nay gained: but <hi>I</hi> ſhall skip over <hi>Dunkirk,</hi> and tell you that whenſoever the En<g ref="char:EOLhyphen"/>gliſh Company ſhall be weary of <hi>Rotterdam,</hi> it may be ſettled at <hi>Bridges;</hi> and hereon <hi>I</hi> could tell you more of my thoughts, were it not a ſecret. And that you may judge how conſiderable a bargain it will be for any man to be poſſeſt of the Town of <hi>Dunkirk;</hi> be<g ref="char:EOLhyphen"/>ſides, what <hi>I</hi> have told you of ſtopping up of its Port; you muſt know, that whoſoever ſhall be maſter there<g ref="char:EOLhyphen"/>of, the ſame town and themſelves may be called up<g ref="char:EOLhyphen"/>on for the payment of ſeven millions of pounds, which are due unto the Engliſh Nation, the ſaid Town being one of the Cautionaries which ſtands bound for the ſaid Debt; and thus, <hi>I</hi> think, <hi>I</hi> have ſatisfied to the purpoſe.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>
+                        <hi>I,</hi> now you ſay ſomething! and here me thinks you tell me ſeveral conſiderable particu<g ref="char:EOLhyphen"/>lars all at a clap; as the ſettling of a Cloth-ſtaple at <hi>Bridges,</hi> the ſtopping up of the Port of <hi>Dunkirk,</hi>
+                        <pb n="13" facs="tcp:153578:8"/> and the demanding of ſeven millions of pounds; now all theſe will ſerve to curb and vex parties.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Thou art ſoon moved to thy teaſtiſh humour <hi>I</hi> ſee.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Not ſo neither; but <hi>I</hi> would have ſuch men as will not do things by fair means, be wrought upon; by a, <hi>You ſhall doe it:</hi> yet howſoever thoſe ſeven mil<g ref="char:EOLhyphen"/>lion of pounds make a pleaſing noiſe in my ears: why ſhould there not a Hue and Cry be made after them? for that in caſe they can be found out; as then many ill husband ſouldiers, would not be ſo over-haſty as they are to ſell their Debenters at four ſhillings in the pound: But <hi>I</hi> pray you, doth not this ſavour of the Queen of Fairies ſtory? and is there ſuch a thing in <hi>rerum natura</hi> as the <hi>Flanders</hi> Debt? is it not a faire nights-dream?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>
+                        <hi>I</hi> can aſſure you thus much of it; that when as <hi>I</hi> paſt of late through the Neatherlands, <hi>I</hi> was told, how that there were thoſe, who had proffe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ed unto Sir <hi>Balthazar Gerbier</hi> (the late King of <hi>Englands</hi> Reſi<g ref="char:EOLhyphen"/>dent in thoſe parts) no leſſe then thirty thouſand pounds for a gratuity, onely to move the ſaid King to have granted a favourable Compoſition unto the Debtors, for the totall.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>What ſay you man? Was there thirty thou<g ref="char:EOLhyphen"/>ſand pounds proffered unto him; and had not that Reſident learned the Bribing trade, which was ſo rife in that age? And is there not at preſent a wiſe man for himſelf (among ſuch as may be able to proſecute the Debtors) who can obtain leave from the State of <hi>England</hi> to be imployed in ſuch a fair buſineſs? Why, what is become of that Reſident? Can he not ſpeak? Can he not be wiſht to diſcover unto a fit Perſon
+<pb n="14" facs="tcp:153578:9"/> how thoſe monyes may be come by? And by what means a nimble Lad might compaſſe that Gratuity? Truly, this particular ſeems to be a Riddle unto me; Nor can <hi>I</hi> finde any impediment, why this State ſhould not look after the ſame? What remarkable cauſe can there be to let it lye dormant? Is it not a Debt for Monyes which were Lent? are there not good Bonds exſtant for the ſame? And hath not the Debt been formerly claimed? Nay, are there not ſe<g ref="char:EOLhyphen"/>verall conſiderable Perſons in <hi>England,</hi> as well of the Gentry as among the Merchants, who have ſuſtained great loſſes both by Sea and Land, by the Spaniſh Sub<g ref="char:EOLhyphen"/>jects? And cannot theſe be ſo wiſe to themſelves, as to obtain that the State of <hi>England</hi> might permit them to endeavour the ſaid Debts recovery? And to crave the benefit of the Parliaments Act; which al<g ref="char:EOLhyphen"/>loweth a third part of concealed Debts; and the which might ſerve towards their reimburſments? Is there not a Nimble Clark that hath Eares and Eyes that way? Truly, it paſſeth my underſtanding that ſuch a conſiderable thing ſhould lye dormant: Nor can <hi>I</hi> perſwade my ſelf that the Engliſh Nation ſhould be more Spaniolized now, then they were in Fiſtolo <hi>Gundamor</hi>'s dayes; but grant they were, why ſhould they not demand their own due? For my part, were <hi>I</hi> an Engliſh man, <hi>I</hi> would have all the World to know, that its not in this age, as it was formerly; when as a Venetian Ambaſſadour returning from the Engliſh Court homewards, and meeting his Succeſ<g ref="char:EOLhyphen"/>ſour, who was making thither; he gave him this advice, how that he was not to expect to finde any Engliſh men in that Court; but to the contrary, <hi>Span<g ref="char:EOLhyphen"/>yards, French, Dutch,</hi> and an unexpreſſible number of
+<pb n="15" facs="tcp:153578:9"/> ſuch like Factionaries: And truly ſince thou haſt a<g ref="char:EOLhyphen"/>wakened me by the ſound of thoſe ſeven Millions of pounds, I would have the <hi>Don Diego</hi>'s put to it roun<g ref="char:EOLhyphen"/>ly, and pay they ſhould with a vengeance.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Fie upon thee; thou wouldſt ſtill have me to be quarrelſome? now with theſe, then with the o<g ref="char:EOLhyphen"/>thers: fie thou knoweſt it is not my diſpoſition.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Thou art mightily miſtaken in me, Man, quarrell ſaiſt thou; Thinkeſt thou that I am ignorant of the Spaniſh Maxim, and of their ſaying, <hi>viz. que pa<g ref="char:EOLhyphen"/>ralas conveniencias se hazen loscoſas:</hi> Thou full well knoweſt how thou didſt put me beyond my Byas, when as I diſcuſſed the matter between the Engliſh and the Dutch; and finally how thou wroughteſt me into a well liking of the Dutch Ambaſſabours coming for England; and how that we concluded: that they will do better to ſtrike the Naile on the head by a good agreement; and in this manner thou haſt made me a Convert in that regard</p>
+                     <p>But doeſt thou all this while think that I can be ta<g ref="char:EOLhyphen"/>ken with <hi>lindas Reverentias;</hi> or with ſmooth words? do but obſerve their owne ſaying, <hi>Palabras y plumas elvi<g ref="char:EOLhyphen"/>ento las lleba.</hi> And have they not by words ſhifted off the adminiſtring of Juſtice for the bloud of a Gentle<g ref="char:EOLhyphen"/>man who was imployed by the State? and have they not forſooth ſhifted it off upon their <hi>Sancta Inquiſiti<g ref="char:EOLhyphen"/>on?</hi> which would torment them even in purgatory (as they ſuppoſe) ſhould they not maintaine their Sanctuaries Prerogative.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>But all this while I wonder what harme the <hi>Spanyards</hi> have done unto thee.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Truly none at all: Nor do I bear them any particular grudge; a man may, I hape, diſcourſe free<g ref="char:EOLhyphen"/>ly
+<pb n="16" facs="tcp:153578:10"/> muſt it needs be confeſt that there are many gal<g ref="char:EOLhyphen"/>lant men amongſt them: their King is a brave Prince, and I do highly eſteem that Nation: But experience hath taught ſuch men as delight in obſervations to diſtinguiſh betwixt thoſe things which are fit, and others which are not warrantable; Beſides there are divers of my acquaintance whom they have moſt e<g ref="char:EOLhyphen"/>gregiouſly and abominably abuſed.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Well, I muſt needs tell thee in one word, how that (although I have been much pleaſed all this while with thy diſcourſe) thou art mightily miſtaken.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Wherein I pray?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>By reaſon thou conceiveſt the Spanyards are to be called upon, for the ſeven millions of pounds a<g ref="char:EOLhyphen"/>bove-mentioned; when as the inhabitants of <hi>Bra<g ref="char:EOLhyphen"/>bant, Flanders, Artois</hi> and <hi>Henault</hi> are the Debtors; For that the money was lent unto them in Queen <hi>Elizabeth</hi>'s time; ſince which thoſe States and People have made it their particular Debt.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Nay, and if the caſe ſtands ſo; as then I have ſundry expedients in my Budget, to procure ſatisfa<g ref="char:EOLhyphen"/>ction thereon, and that without any brags at all.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>I but I pray you; what were thoſe horride and abominable abuſes, which thy acquaintance and friends have ſuſtained by the Spaniſh ſubjects?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Why, even as many as the millions of pounds; O that yee had ſeen the miſeries which a world of Engliſh have ſuffered in the Spaniſh and Flemming Dungeons, after their ſhips and goods were detained from them:</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Do they not obſerve the Articles of Peace?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>What talk you of Article of Peace? they were ſpeciall ones indeed.</p>
+                  </sp>
+                  <sp>
+                     <pb n="17" facs="tcp:153578:10"/>
+                     <speaker>Boul.</speaker>
+                     <p>Why ſayeſt thou ſo? were they not contri<g ref="char:EOLhyphen"/>ved by wiſe and juditious men? and were they not ſworn too on the Goſpel?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Now talkeſt thou moſt like a Ninnihammer, didſt thou never heare who was the contriver of thoſe Articles? why, marry ile tell thee: The once <hi>Conde Duca d'olyvare,</hi> the Spaniſh Kings favorite; and one who was more Spaniolized then a <hi>Caſtillion <g ref="char:V">Ʋ</g>ieſo; viz. Francis Cottington;</hi> who by his fair contrivance of ſome part of the ſaid Treaty; did cut the Throats of ſundry Engliſh Negotiants and ſea-faring-men.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>In what manner I pray?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Why if we were not on ſo ſhort a journey; I could tell thee a thouſand things herein; but I per<g ref="char:EOLhyphen"/>ceive we are neer the lands-end.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>However continue thy diſcourſe as long as we are aboard.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>In a word therefore (mark well what I ſay) there is nothing ſo ſure as that in caſe the Common-wealth of <hi>England</hi> doth not oblige the Spaniards to reform and amend the ſaid Articles of Peace, the many bleeding hearts of a great number of good En<g ref="char:EOLhyphen"/>gliſh men, will not conceive their condition to be better in theſe times, then they formerly were: I mean ſuch as have by their Traffick; for that I have ſeen their intolerable and innumerable greevances.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Can you exemplifie herein?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Marry that I can, and it's that the Spaniſh and the Flemmiſh (which were wont to be called the py<g ref="char:EOLhyphen"/>rating <hi>Dunkirks</hi>) do uſe a game called <hi>have at all;</hi> and for the moſt part do (as the <hi>Italian</hi> Robbers, who firſt kill a man, and then pick his pockets) impriſon, torture and ſlay thoſe they light on; and then make ſale of their ſhips and goods.</p>
+                  </sp>
+                  <sp>
+                     <pb n="18" facs="tcp:153578:11"/>
+                     <speaker>Boul.</speaker>
+                     <p>But what ſaid the Merchants hereunto? and thoſe who were Copertners in the Ships ladings?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>Why, this was their courſe, to the Admiralty Courts they went, firſt to that of <hi>Dunkirk,</hi> next from that of Pontius they are ſent up to <hi>Pilat</hi> at <hi>Bruxels;</hi> where for the moſt part they are ſure to be condem<g ref="char:EOLhyphen"/>ned: for that thoſe Grandees, the Governours of Towns, and the moſt eminent'ſt men in thoſe parts, have their ſhares in the Bootie; being ſo intereſt ad<g ref="char:EOLhyphen"/>venturing Pyrats, (as the Barron of <hi>Wakken</hi> was,) in ſo much as that its an impoſſibility for any Engliſh men to be righted there.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Tell me, I pray, wherein all this while the Treaty of Peace is defective?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>In ſeveral particulars, which I could ſpecifie in; and yet I muſt be brief; although there might be much ſaid hereon, had we time; to inſtance in one, And it is the 25. Article of that Treaty, which runs thus, viz. <hi>That if during this peace, any thing be attem<g ref="char:EOLhyphen"/>pted, or done, by the Subjects of either; the attemptors and ſuch as offend therein, ſhall be onely puniſhed and no others.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Why, this ſeems to be juſt and conſonant to the word of God.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>You ſhould ſay, anſwerable to the <hi>Cottingto<g ref="char:EOLhyphen"/>nian</hi> law-giver's meaning, which by your leave, I ſhall make appear thus, It is unpoſſible for any men eſpe<g ref="char:EOLhyphen"/>cially the Engliſh, to be indemnized by the attem<g ref="char:EOLhyphen"/>ptors or offenders, by way of juſtice; for as I told you before, the ſeveral Grandees have a ſhare therein; beſides, the impoſſibility for an Engliſh man who is wronged in the Indies, and thoſe remote parts, to obtain any ſatisfaction at all, from thoſe diminutive
+<pb n="19" facs="tcp:153578:11"/> Vice-gerents, whoſe will is a law, and whoſe inte<g ref="char:EOLhyphen"/>reſt is their Mammon: Nor can theſe wilfull Pirates be hindred in their purſuance of the Engliſh even in<g ref="char:EOLhyphen"/>to the very Ports of the Land. Of theſe impoſſibili<g ref="char:EOLhyphen"/>ties to obtain juſtice, <hi>Cottington</hi> was not in any wiſe ignorant; and therefore his contriving of ſuch an Article, was in favour of the Spanyards, whoſe Pen<g ref="char:EOLhyphen"/>tioner he then was, and its no wonder, he is ſtill ſo.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>And if ſo be, the Spaniſh and Flemmiſh Sea<g ref="char:EOLhyphen"/>men of War (or any others, under what pretence ſo<g ref="char:EOLhyphen"/>ever they may be ſet forth) doe ſo egregiouſly abuſe the Engliſh, and that there is no juſtice to be had; beſides, that the ſubſtance of many Widows and Or<g ref="char:EOLhyphen"/>phans (who have loſt their Huſbands and Fathers; together with their Ships and Goods, as aboveſaid) hath been exhauſted in the like fruitleſſe purſuances: It therefore ſeems that the granting of Letters of Mart, is the ſhorteſt way.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>This may prove to be as bad a remedy as the evill it ſelf; for that in the firſt place, thoſe who in<g ref="char:EOLhyphen"/>tend to man out Ships on ſuch an expedition, muſt be at vaſte charges; ſecondly, they run the hazard of a loſt Voyage; thirdly, its a queſtion, whether that which they take will countervaile the coſt, when as the charges are deducted. Moreover, the Owners may pretend, that its a hard caſe to have their Ships and Goods taken, when as they have not done the wrong; And what would not ſeverall ſouldiers think hereof? when as very often for a punctilio between Princes, whole Countries are laid waſte, Cities, Towns and Villages are reduced to aſhes, both old and young put to the Sword; Virgins and even Girles raviſhed, with many the like cruelties.</p>
+                  </sp>
+                  <sp>
+                     <pb n="20" facs="tcp:153578:12"/>
+                     <speaker>Boul.</speaker>
+                     <p>As then me thinks it might prove a very fit expedient to ſeiſe on the Ships and Goods of ſuch a Nation, whereby the Engliſh may (in ſo high a na<g ref="char:EOLhyphen"/>ture) have been prejudiced, and the which may be effected in the very Ports of <hi>England,</hi> and even in the Merchants Ware-houſes.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>I marry, why, now thou ſpeakeſt common ſenſe, for it was the ſame courſe which Queen <hi>Eliza<g ref="char:EOLhyphen"/>beth</hi> took; and whereby ſhe got the love of the peo<g ref="char:EOLhyphen"/>ple; and cauſed her ſelf to be feared by all Nations. Other States have done the like on the ſame occaſions. The righting of ſubjects being a Maxime of State, which is not to be gain-ſaid; and which the Spanyards themſelves do not deny, but to the contrary they have confeſt, and muſt avouch the ſame.</p>
+                     <p>That whereas it is the publique Faith; which doth make good reciprocal Bonds; ſo can there not be a true and firm peace, ſave upon ſuch juſt and invio<g ref="char:EOLhyphen"/>lable principles, as that by vertue of them, every par<g ref="char:EOLhyphen"/>ticular ſubject may be righted; for that otherwaies, a Peace would be far more dangerous then open war; during which, parties can better ſtand upon their guards, then in the time of a profeſſed friendſhip.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>I doe remember ſeveral examples, of what I have alledged; when as Forreigners have on the like occaſions ſeiſed on the Engliſh-ſhips and goods with<g ref="char:EOLhyphen"/>in their juriſdictions.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>You may eaſily remember them, for that they are of a very freſh date; even ſince the laſt Parlia<g ref="char:EOLhyphen"/>ment of <hi>England</hi> hath been aſſembled.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Boul.</speaker>
+                     <p>Doubtleſſe you mean, one <hi>Peter le Duke,</hi> who being authorized by the French Council of State, to arreſt ſuch ſhips and goods, as belonged to the Engliſh
+<pb n="21" facs="tcp:153578:12"/> Subjects in obedience to the Parliament; by Virtue of which order, the ſaid <hi>le Duke</hi> did force open the En<g ref="char:EOLhyphen"/>gliſh Merchants Counting-houſes at Saint <hi>Malos.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Kit.</speaker>
+                     <p>So likewiſe do I remember, how that the King of <hi>Denmark,</hi> did in the year 1643. ſeiſe on a ſhip be<g ref="char:EOLhyphen"/>longing to the Engliſh Merchants Adventures, as it paſt <hi>Gluckſtadt</hi> on the river of <hi>Elbe,</hi> and the which was bound for <hi>Hamborough;</hi> as alſo foure other ſhips belonging to the Eaſt Land company, as they paſt the <hi>Sound:</hi> All which ſhips together with their lade<g ref="char:EOLhyphen"/>ings were confiſcated, without any ſuit at all in the Admiralty Court. And this ceiſure was undergone by the ſaid King of <hi>Denmark;</hi> becauſe the Parliaments ſhips had taken a <hi>Denmark</hi> ſhip called the Chriſtian Ark.</p>
+                     <p>Nay the Spanyards themſelves have done and day<g ref="char:EOLhyphen"/>ly do more then what is above ſpecified; for that they ſeize on ſuch ſhips as chance to be in the company (by meer accident, and not having any relation at all to them) of ſuch others on which the ſaid Spanyards pretend to have a right; and to inſtance herein, we ſhall only alledge Captain <hi>Davis</hi> and <hi>Freeman</hi>'s caſe, who were lately abuſed in the like manner by the Spanyards. Moreover as there are an infinite num<g ref="char:EOLhyphen"/>ber of ſuch like examples, ſo doth it behove thoſe, whom the great Judge of Heaven and Earth hath hath placed in authority; to remember (on ſuch occa<g ref="char:EOLhyphen"/>ſions) when as thoſe who live under their obedience are wronged; and that its impoſſible for them to be otherwiſe redreſt; To do them juſtice in the like man<g ref="char:EOLhyphen"/>ner as is before ſpecified: unleſſe they expect that the old womans ghoſt (who ſtopt <hi>Adrian</hi> the Emperor in his way, ſaying, <hi>Ceaſe to be,</hi> or <hi>do Juſtice</hi>) ſhould cry in
+<pb n="22" facs="tcp:153578:13"/> their Ears, <hi>Doe Juſtice to thoſe that are true unto you,</hi> or <hi>Take not upon you that function which the Lord hath permitted you to exerciſe.</hi> And thus I ſhall conclude with the laſt part of that which is to be ſaid on a buſi<g ref="char:EOLhyphen"/>neſſe of this nature, <hi>viz.</hi> That whenſoever a State is in poſſeſſion of any ſhips, goods, or monyes, apper<g ref="char:EOLhyphen"/>taining unto the Subjects of any Nation, from whom they may have received an injury; The beſt and ſpee<g ref="char:EOLhyphen"/>dieſt way to right their own Subjects ſo offended, and endammaged; is to diſpoſe of thoſe ſaid ſhips, goods, and monies unto them; and to leave it unto that Prince, whoſe Subjects have wronged the others, to ſatisfie his ſaid Subjects, which committed the ſaid out-rage, out of thoſe ſpecialties, ſhips, goods, and monyes, as the ſaid Prince may be in poſſeſſion of: (by them ſo unjuſtly taken.) And thus there is an end of an old Song.</p>
+                     <p>Let us therefore haſten to ſhoar, and there obſerve whether the Hoghen Moghen Ambaſſadours will a<g ref="char:EOLhyphen"/>gree; and thereby make good their old ſaying, viz. <hi>Houdt vaſt eude beleight;</hi> or whether they are come o<g ref="char:EOLhyphen"/>ver in ſuch a Crafty way as the late Marqueſſe of <hi>Spi<g ref="char:EOLhyphen"/>nola</hi> was uſed to practiſe (as aforeſaid) and whereby he over-reached ſuch men as were ſubject to be drawn in by ſmooth ſpeeches; when as he ſaid, <hi>En<g ref="char:EOLhyphen"/>tretenemos à eſſa platica;</hi> although he had no minde to conclude any thing at all; onely out of a ſubtile vein, to gain time; according to the Italian ſaying, <hi>Per arte eper ingano, ſi paſſa la mitta del Anno &amp;c.</hi> Nor can it be believed that they intend to make uſe of the French Pollicy, viz. <hi>If fait bonpeſcher en eau trouble,</hi> But rather that both parties will be juſt and wiſe, and obſerve the ſaying, That the greateſt Craft is to have none at all, &amp;c.</p>
+                  </sp>
+                  <trailer>FINIS</trailer>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:153578:13" rendition="simple:additions"/>
+                  <p>
+                     <hi>The Second Part,</hi> OF THE Holland-Sea-Cabbin-Dialogue; CONSISTING, In a ſharp diſpute between a ſtout Engliſh Sea Captain, a Dutch Merchant, and a Maſty Freeze-lander; who in his laſt comming over from <hi>Holland,</hi> betroathed himſelf under the Decks unto Goody <hi>Drigle-Drag-taile;</hi> Whoſe Hogs at his landing he ſold to buy himſelf a gaudy Coat, wherewithall he at preſent Swaggers on the Old <hi>Exchange.</hi>
+                  </p>
+                  <p>
+                     <hi>Whereunto there is added,</hi> Gooddy-<hi>Drigle-Drag-tailes,</hi> pittiful lamentation to <hi>Wabbity Clonters,</hi> and <hi>Jannety Stronts,</hi> her Goſhips; all of them lately come from <hi>Holland</hi> by the Fleet which was conceived to be in ſight of <hi>Portſmouth.</hi>
+                  </p>
+                  <p>
+                     <hi>LONDON,</hi> Printed by <hi>T. M.</hi> 1652.</p>
+                  <pb n="22" facs="tcp:153578:14"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb facs="tcp:153578:14" rendition="simple:additions"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+               </div>
+            </front>
+            <body>
+               <div n="2" type="part">
+                  <pb facs="tcp:153578:15"/>
+                  <pb n="1" facs="tcp:153578:15"/>
+                  <head>The Second Part of the <hi>Hollanders Sea-Cabbin-Dialogue.</hi>
+                  </head>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>
+                        <seg rend="decorInit">W</seg>Ho of us three, I pray, ſhall prove him<g ref="char:EOLhyphen"/>ſelf to be the wiſeſt? and reflect on a Gig, which was acted by the <hi>Harlemmers</hi> Rhe<g ref="char:EOLhyphen"/>toricians: Whenas a ſingle man appear<g ref="char:EOLhyphen"/>ing on the ſtage, uttered his minde in this ſenſe; <hi>viz.</hi> Three and five is nine, which he con<g ref="char:EOLhyphen"/>tinually reiterated as he walked up and down; a while after, a merry Grig ſtarts forth at the other end of the Stage, and ſaith thus; To meddle with no<g ref="char:EOLhyphen"/>thing, is beſt; and theſe two might happily have re<g ref="char:EOLhyphen"/>mained uninterrupted till this very day, had not a third party interpoſed; &amp; hearing the firſt mans note, that three and five was nine; he endeavoured to per<g ref="char:EOLhyphen"/>ſwade him, that he was in an error; for that to all mens knowledge, three and five were but eight: At which the five and third man being diſpleaſed, and falling into a rage, ſeeing himſelf thus abruptly controled, he gave the other (who endeavoured to rectifie him) a ſound box on the Ear, ſaying, that's nine with a ven<g ref="char:EOLhyphen"/>geance, at which our third party capered to ſome tune
+<pb n="2" facs="tcp:153578:16"/> laughing heartily and repeating his firſt leſſon <hi>viz. To meddle with nothing is beſt;</hi> Whereas the affirming party was ſufficientiy aſhamed, and the aſſembly not a little pleaſed: As alſo all buſie bodies, partly inſtru<g ref="char:EOLhyphen"/>cted; carrying ſo emphaticall a leſſon away with them, <hi>viz.</hi> How that, <hi>to meddle with nothing, was the beſt and ſafeſt way.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>Thou hinteſt very well; and if ſo be that Meddle with all-party, had performed his part on the Old Exchange: Marry as then, he would have learned more wiſdome, then to ſpread brags of the buying of <hi>Dunkirk,</hi> and all the <hi>Weſtphalia</hi> bacon: As if we Engliſh were children, and to be ſcared by ſuch a mock-ſhow, and could not make fire-ſhips as well as our neighbours: nay, as if we wanted Spades and Pick-axes, to levell your Hontſboſch, your Ca<g ref="char:EOLhyphen"/>dykes, and your Slapers; and to make the Sea over<g ref="char:EOLhyphen"/>run all thy Country.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>Nay brother, that's ſuch another brag as was lately vented in a Beer-ſellar, amongſt ſuch mad Sea-blades as thou art.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>I would have you know, that we Sea-Captains are as wiſe as <hi>Moſes</hi> was, and not at all ſo foo<g ref="char:EOLhyphen"/>liſh as <hi>Pharoah:</hi> For that he paſſed the Sea, and taſted not a drop of it: But <hi>Pharoah</hi> and his drunken crew were ſo mad as to drink their bellies ſo full on't, as that they all kickt up their heels. And though we trade on the water, yet we drink good wine: I would have you to know that we are rational men, as well as o<g ref="char:EOLhyphen"/>thers; and doe underſtand our ſelves in ſuch a manner as ſhall appear unto all the world. And as for the particular of <hi>Beere drunkards,</hi> apply that to your own country men; eſpecially, to the naſty Freeze,
+<pb n="3" facs="tcp:153578:16"/> who would not reſolve on the ſaving of th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ir ſouls, their lands, lives, and liberties, when as <hi>William</hi> of <hi>Naſſau</hi> repreſented unto them the diſtreſſed eſtate, wherein their Country-men were (before their at<g ref="char:EOLhyphen"/>taining to be the mighty <hi>Kaes Copers,</hi> from <hi>Kaes knee-leſſen, drye brochelde Necus Schipper:</hi>) untill they had firſt drunk with him, and permitted them to ſalute his wife the Princeſſe, <hi>opſie-Freeze,</hi> by a ſlovenly great bearded fellow: And as then, it was <hi>William,</hi> thou art a good fellow; they ſtroked him on the ſhoul<g ref="char:EOLhyphen"/>ders, and told him they would make a man of him; telling him thus, <hi>Willem, Willem, wy ſullen een man van uw maken, ſo ghy wilt deughen:</hi> Engliſhed thus, <hi>William, William, we will make a man of thee, ſo thou wilt prove honeſt:</hi> I marry, would they; and I marry as then ſhould he have monies. And as then <hi>John van old Barnavault,</hi> with two others of the brethren line<g ref="char:EOLhyphen"/>ally deſcended from ſuch Schoomakers and Bre<g ref="char:EOLhyphen"/>wers, as never were acquainted with the wearing of a pair of Cuffs; and theſe forſooth, were ſent over to the great and matchleſſe Queen <hi>Elizabeth;</hi> who at firſt daſh gave them a flat denial; telling them that ſhe could not with a ſafe Conſcience aſſiſt Rebels, ſuch as were the ſubjects of a King, her dear brother; unto whom ſhe was particularly obliged; concluding with a Quere, how they could imagine, that ſhe ſhould ſuffer the bodies of her Noble Engliſh men to be their ſtop dykes; and for the which they might perchance one day pay them with ingratitude: <hi>A thing which is but too much practized now a dayes, by ſuch as have been obliged above reaſon.</hi> Whereupon <hi>Barnavalt,</hi> (who had a groates worth of Pedantical broken latine in his poutch I ſhould ſay Rhetorick Though it was
+<pb n="4" facs="tcp:153578:17"/> a little poliſh't over in <hi>Eraſmus</hi> ſtile) why as then he could crouch, ſtoop, fawn, and flatter in this manner; (returning the Queen this anſwer;) To your ſacred Majeſty, we have made our addreſſes, as to a dear Mo<g ref="char:EOLhyphen"/>ther, we like little children imploring for Milk; and if ſo be our fate ſhould be ſuch as to be denyed, why as then we muſt ſtarve; and in the like tearms they moved that good Queen to compaſſion, the which it ſeems God would permit: And ſhe anſwered them that they ſhould not onely have milke from her royal breaſts, but even the very laſt drop of her blood; and how is this, I pray, repaied? Why marry, even by the blood of our true Engliſh at <hi>Amboyna;</hi> and whe<g ref="char:EOLhyphen"/>ther heaven ſhould not ſend down to know whether it be ſo or no; and doe according unto the cry which is lately gone up from <hi>Portſmouth?</hi> Let all the world judge; and likewiſe let Heaven judge? whether all the water which might over-whelm thy ingratefull ſoil (by the piercing, as aforeſaid, of thy dikes, the Honts-boſch; the Slapers, Cadikes, and the like) might be capable to waſh off ſo great a guilt.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>Sirra Captain, if thou wilt drinke with us; up ſin <hi>Freeze,</hi> we will make thee an Horneſt-man.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Right, this is even as I ſaid afore of <hi>William</hi> Prince of <hi>Orenge.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>Sirra Captain, I would have thee to know, that I have a brave green Cheeſe, coloured by good ſheeps dung; and a good pickle Herring: Nay better then all this, I have a couple of luſty freeze Mares to be<g ref="char:EOLhyphen"/>ſtow upon thee, to'th end that if ſo be thou art furi<g ref="char:EOLhyphen"/>ous enough, thou maiſt Cover them thy ſelf, and thou maiſt term their Foals <hi>Beſchie:</hi> nay <hi>Elizabeth,</hi> if thou beeſt as plaine as we are, for ſo we call our Mares;
+<pb n="5" facs="tcp:153578:17"/> ha, ha, <hi>Beſſie,</hi> ha with a whip we make them flie, faſter then Ship ſailes when the wind blowes at the high<g ref="char:EOLhyphen"/>eſt, and though you make all your ſailes.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Why how now Good man Furcoat, and Fur<g ref="char:EOLhyphen"/>cap? ſirra ſirra ſay you? thou that walkeſt on the Ex<g ref="char:EOLhyphen"/>chang, and ſtrutteſt even as if the preſent being of the Hogen Moghens Ambaſſadors amongſt us, did make thy Dice to runne naught but <hi>Siſſe, Cinke;</hi> whereas thou art but a meere Duce (Dunce I ſhould ſay) nay a meere Aſſe, and a Foole in Graine.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Drible-D.</speaker>
+                     <p>Truly ſir Captain, he hath made a Fool of me indeed; alas, I can aſſure you 'twas my Sow, and Pigges that paid for this brave Coat, and for his ranting in lieu whereof, I now hear by <hi>Jannetie Stronts,</hi> and <hi>Wabbetie Clonters</hi> reports, that we muſt all return from whence we came; and that which is worſe, we muſt returne not halfe ſo wiſe as we were, for that we thought we ſhould have been coupled.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Jan. Stronts.</speaker>
+                     <p>Thou ſhouldeſt rather ſay, be marry<g ref="char:EOLhyphen"/>ed together, that ſo the ſtate of <hi>Holland</hi> might have beene the Wife, and the Common-Wealth of <hi>Eng<g ref="char:EOLhyphen"/>land</hi> the Husband, and that by ſo lovely a copula<g ref="char:EOLhyphen"/>tion, they might not onely have produced Herrings, but Whales, to make good ſtore of Oyle for our cloath; for that you muſt know we have an art to make cloath far better then yours? and the Moun<g ref="char:EOLhyphen"/>fiers, the Signiors, the great <hi>Min-Heeres,</hi> are all of them in love with our cloath; beſides we know how to make Fooles of you Engliſh, by getting away your Fullers Earth: Moreover we have another expedient (though it lyes Dormant) and the which we will put on foot with ſpeck <hi>John,</hi> the Don Diegos; for that we are great comrades at preſent; although its
+<pb n="6" facs="tcp:153578:18"/> not unlikely, but that they ſhould gladly ſee us fall foule, and take one another by the throat, that ſo they might have an opportunity to have at us againe.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>So ho, goodly Driggle-Draggle-tayle, have a care of thy troffe, for that thy Hogges and Pigges are gone.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Jan. Stronts.</speaker>
+                     <p>Hearke I pray how this ſurley ſtal<g ref="char:EOLhyphen"/>lion ſnarles? marry come up, this would be a hot match, and a faire copulation indeed.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>Why? that we ſhall, and agree in ſpite of all the Fire-brands in the World; and now I will take a turne amongſt the Engliſh, ſince I ſee my walking amongſt my own Country-men is carped at; am I not a free borne Man? ſhall there not be free quarter between us Captaine? I pray you tell me; ſhall we rake coals out of the aſhes? give me leave Captaine, wee are all <hi>Adam</hi> and <hi>Eves</hi> Sonnes; we are of one and the ſelfe ſame Religion, take my word for it, ſuch as would have us to fall foule; doe not minde any good to either of us; ſtill I ſay, a green Cheeſe thou ſhalt have, and a Mare to boote: Nay thou ſhalt ride me if thou wil'ſt, and my gooddy Driggle Draggle taile too, for I muſt plainely tell you, it was but a Match under the Decks.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>How now ſirra? I tell thee, I ſcorn thee, thy Generation, thy Nation, thy Coat, thy Cheeſe, thy Mares; and farre more thy infamous goody driggle-draggle-tayle bitches.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Marc.</speaker>
+                     <p>Good ſir Captaine, let us talke like Bro<g ref="char:EOLhyphen"/>thers.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Brother? I ſcorne thy Motion, Brothers ſaiſt thou? what Brothers? <hi>Cain</hi> and <hi>Abel</hi> were Brothers; and the <hi>Hollanders</hi> may happily prove to be the Slay<g ref="char:EOLhyphen"/>ers of <hi>Abel.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <pb n="7" facs="tcp:153578:18"/>
+                     <speaker>Freeze</speaker>
+                     <p>Well ſaid brave Captain, ſtill you grant us to be the elder brother.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>Pray ſir Captain, let us talk as brothers, in him who hath made us ſo.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>If you were Chriſtians, that were ſomewhat; but you ſeem to be worſe then Jews and Devils</p>
+                  </sp>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>Good Captain, although we were what you ſuppoſe us to be; yet however let us talke like bro<g ref="char:EOLhyphen"/>thers; let me intreat you to paſſe by this S. <hi>Chriſto<g ref="char:EOLhyphen"/>phers Hircanum;</hi> Let us I pray you diſcuſs and ponder the caſe; and I pray you what is it that raiſes the ſtorm, ſave your abundance of matter: I perceive you are incenſed. Firſt, by your remembring the barbarous proceedings of a company of drunken knaves, who were on the other ſide of the world, too farre from their Maſters to have their hands held from abuſing of the Engliſh: were not, I pray you, the Holland Ambaſſadours two years together dancing an atten<g ref="char:EOLhyphen"/>dance on the late two Kings pleaſures, proffering their Majeſties and the Nation ſatisfaction? Shall a wrong done by a company of knaves, during the reigns of forreigners, who are dead and forgotten, be ſo much reſented by thoſe, who will not acknow<g ref="char:EOLhyphen"/>ledge them nor theirs, although they ſhould come on earth again? beſides, the wrong which was acted, was happily done againſt ſuch, who if they were alive might perchance not be in a poſſibility of deſerving this Common-wealths juſtice or favour: For that it may be they might have proved arch-malignants. And grant all this were not ſo, yet what ſhall we ſay? They are gone and cannot be recalled<g ref="char:punc">▪</g> and if ſatis<g ref="char:EOLhyphen"/>faction muſt be given for blood, then let us remem<g ref="char:EOLhyphen"/>ber the free-grace, which our Lord and Saviour Jeſus
+<pb n="8" facs="tcp:153578:19"/> Chriſt hath offered to all mankinde; rather then to call upon the ancient laws, which ſeem to be the ſum<g ref="char:EOLhyphen"/>mit of Rigour, as <hi>life for life, eye for eye, tooth for tooth;</hi> And if this muſt needs be urged; would it not prove a piece of high injuſtice, if ſo be for the ſtriking out of one tooth of a mans head, that hath his double range of teeth compleat, the tooth of the offender ſhould be plucked out, although he had but one in his head; certainly you would judge this to be a great deal of cruelty. <hi>Amboyna</hi> buſineſſe, I grant you muſt be clea<g ref="char:EOLhyphen"/>red; the right of the Engliſh Seas muſt be acknow<g ref="char:EOLhyphen"/>ledged; for that is moſt notorious, how that when as King <hi>Philip</hi> the ſecond of <hi>Spain,</hi> was married to Queen <hi>Mary,</hi> yet could he not claim any Prerogative in the Engliſh Seas, in the behalf of his Subjects: <hi>Fer<g ref="char:EOLhyphen"/>dinando Turſis</hi> its true did fiſh in the Engliſh Seas, but it was on a Licence for 22. years, Signed by Queen <hi>Mary,</hi> as well as by <hi>Philip</hi> the ſecond. But you will ſay, what other injuries have there been done you? Why, ſuch things as are both poſſible and conveni<g ref="char:EOLhyphen"/>ent muſt be effected, to which purpoſe we conceive the Ambaſſadours are come over, accompanied with ſuch orders as may conduce thereunto.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>I marry, they are come indeed, for what I pray? to out-brave us with a Fleet, and to kill the good People? I muſt needs tell you that theſe are not times, wherein a Cat might not look upon a King; for that as now a King (undiſguiſed) dares not look upon an Engliſh Cat; nay, not ſo much as on a dead Cat; nay, not ſo much as on <hi>Tom VVhittingtons</hi> Cat, which is hung up for a Signe: And muſt they for<g ref="char:EOLhyphen"/>ſooth, come with a Fleet on our coaſt? O, were there not a prohibition on the importation of Oaths by
+<pb n="9" facs="tcp:153578:19"/> Hollanders as well as by Engliſh, why I could even ſwear and ſwagger at this horrid abuſe.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>Good brothers, let me intreat you to give way to the exportation of Oathes by ſtrangers, al<g ref="char:EOLhyphen"/>though they ſhould not pay any cuſtom at all for it.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>I will have thee to know (and all the world to boot) that we can ſet out two hundred Men of Warre; and by our dividing of them into four fleets, we ſhall be able to maſter the Seas; and ſo we ſhall not need to think on ſuch utterances, as the cutting of dikes, which we ſcorn, and abhor the thoughts there<g ref="char:EOLhyphen"/>of; being not ſo over-preſumptuous as to contradict the Lords Decree, by making a ſecond Flood. For that all the Nations of the earth ſhall finde us to be anſwerable to the Etymologie of our name, <hi>viz.</hi> An<g ref="char:EOLhyphen"/>gelical. That which is fair and juſt muſt be expected from us; we will doe as we would be done by; ami<g ref="char:EOLhyphen"/>cable in times of Peace; and fair quarter if it muſt needs come to a Warre: and thus much may ſuffice for the principal. But as for acceſſaries, I pray thee tell me, good ſir Merchant, canſt thou perſwade thy ſelf, that we Sea-Captains, and ſuch others of us as doe reſent the blood-ſheddings of our country<g ref="char:EOLhyphen"/>men, of our brethren and freinds, can be diſſwaded from the begging of our Rulers (even on our knees) that we may have liberty to put to Sea: You muſt know that the whole Nation hath but one tongue, and one heart in this regard; can we not at our eaſe take all the Merchandiſes wherewith the Holland ſhips are fraughted? Need our Engliſh men venture one groat in Merchandiſes? Doth <hi>England</hi> conſiſt in <hi>Harlemmer meeres?</hi> In <hi>Zuyder Seas?</hi> and in Rivers? Your country men have no Lands nor Parcks; Doe
+<pb n="10" facs="tcp:153578:20"/> but cut off their Traffick, and as then God be with you, ingratefull Generation; And all this while you would have us repeale an Act: I marry, an Act of Parliament: which muſt be as inviolable, as the de<g ref="char:EOLhyphen"/>crees of the <hi>Parthians</hi> and <hi>Medes.</hi>
+                     </p>
+                     <p>And moreover it ſeemes by your diſcourſe, that you would faine have us to believe, that the Parliament hath been miſ-informed by ſome ſelf intereſſed Men, who may perchance be accuſed of ſome ſecret Mono<g ref="char:EOLhyphen"/>poly; and the which may tend to the ruine of a num<g ref="char:EOLhyphen"/>ber of Merchants, Artiſts, and Tradeſ-men.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>If I doe not prove it to be ſo, nay if I make it not appeare unto you, that it is one of the greateſt Monopolies that ever was hatcht againſt this Nation, as then call me Foole, Nitty-breech, Ninny-hammer, Cocks-cumbe, or any thing what thou wilt.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>Say you ſo? Why, I doe very much queſtion whether thou wilt not prove to be the Actor, who troubled himſelfe to maintaine that five and three were but eight; and that forgetting the merry Grigs Axiome, <hi>viz. To meddle with nothing is beſt:</hi> thou at length maiſt chance to get a ſound box on the Eare for thy paines.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>Hold there ſir Captaine; you may be miſta<g ref="char:EOLhyphen"/>ken, for that our diſcourſe infers no conſequences.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>However, I know thou art a Pen-man, and haſt the liberty and prerogative of thy Counting-Houſe; and as thou wilt'ſt not tranſgreſſe the Law of Nations, ſo will not I pleaſe my ſelfe, by aſſerting un<g ref="char:EOLhyphen"/>to that which is before mentioned, <hi>viz.</hi> that five and three are nine: yet however I ſhall be content to hear what thou canſt ſay, againſt that unqueſtionable truth: How that the Act which prohibites the Im<g ref="char:EOLhyphen"/>portation
+<pb n="11" facs="tcp:153578:20"/> by ſtrangers, of ſuch Commodities as are not of their Countries growth, tendeth to the ad<g ref="char:EOLhyphen"/>vantage of our Negotiations, and to the main curtai<g ref="char:EOLhyphen"/>ling of all Forrayners, eſpecially of the <hi>Hollanders,</hi> who (had not this been) would not have beene ſo over-haſty, as to harp upon that ſtring.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>Why truly, let me tell you, it may be the States of <hi>Holland</hi> have been made to underſtand, that the ſaid Act was rather publiſht in a threatning manner then otherwaies; and the which I would have you know, no power in the World could ever yet brook; for that every Cock (althoug his feathers be never ſo Hoary) conceives himſelfe to be Maſter on his owne Dunghill: ſo likewiſe know you the French Proverb, <hi>Amouret ſeignieuri, n'endure point de Compagnie:</hi> although its granted, that compariſons doe for the moſt part halt, and offend: wherefore we ſhall proceed to the point, and that we may enjoy our ſelves with the better Freedome, let us ere we en<g ref="char:EOLhyphen"/>ter on our diſcourſe, turne home-wards theſe home<g ref="char:EOLhyphen"/>ly Goſſips, gooddy <hi>Driggle Draggle-tayle, Wabbetie Clonters,</hi> and <hi>Jannitie Stronts,</hi> who ſeem to be alarmed by the noiſe of a breach; and as for the plain down right Freeze-Lander, we will leave him to take a walke, and ayre himſelfe, whilſt we, (laying aſide all particular intereſts and paſſions, eſpecially that kil<g ref="char:EOLhyphen"/>ling and deſtroying humour; for that you muſt needs grant, when men have fought it out to the laſt; yet muſt they (after many loſſes on both ſides) come to an agreement at laſt, go on with our diſcourſe.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>I but yonder comes our importunate Freeze-Lander againe; how ſhall we ſhift him?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>And why ſhift me ſirra Captain? I would
+<pb n="12" facs="tcp:153578:21"/> have thee know that now I have taken a turne round the Exchang; I am reſolved to interrupt the Gentleman that ſpake laſt, and alſo to tell thee to thy face, that thou art either a great Impoſture, or mightily miſta<g ref="char:EOLhyphen"/>ken, as touching the Sea proceedings; for that it will be proved, h<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>w that the <hi>Hollanders</hi> my compatriots have been firſt ſet upon, and moſt Egregiouſly abuſed, which truth, ſhall be made good by ſubſtantial proofs, and well grounded evidences, and the which our Ambaſſadors will not be backwards to repreſent. And how that the Engliſh have committed ſuch ſpoyles and out-rages upon us, as are not to be paral<g ref="char:EOLhyphen"/>lel'd; For is it not publike, how that one Engliſh man of Warre, who ſet forth with a Letter of Licence (or Mart as you may call it) hath taken more then thirty Holland Merchant men; and I pray you how can this ſtand before God and Men? that by reaſon of a par<g ref="char:EOLhyphen"/>ticular pretence, a whole Nation ſhould ſuffer ſo ge<g ref="char:EOLhyphen"/>nerall a damage: Moreover was it ever heard of, that Soveraignes and States doe breake, on the occaſion of every particular perſons falling foule? that would be juſt as if Neighbours ſhould ſet each others Hou<g ref="char:EOLhyphen"/>ſes on fire, when as their Servants or Domeſticks chance to diſagree.</p>
+                     <p>And as to thy former queſtion, whether the <hi>Hol<g ref="char:EOLhyphen"/>landers</hi> were not worſe then Jewes? what an unhand<g ref="char:EOLhyphen"/>ſome language is that? and how injurous? ſince all the world knowes them to be honeſt plaine dealing men, that their word is more binding then all the Engliſh Lawyers clauſes, <hi>for, too, and,</hi> and which they inſert in their Beds-ſheets like Indentures, deeds and covenants: The <hi>Hollanders</hi> you muſt know mean right to the Engliſh; and love them ſo well, as that they of<g ref="char:EOLhyphen"/>fer
+<pb n="13" facs="tcp:153578:21"/> to ioyne with the Engliſh Nation againſt any par<g ref="char:EOLhyphen"/>ty that ſhall not keepe a faire correſpondency with them: Now that it ſtands with the intereſt of the En<g ref="char:EOLhyphen"/>liſh Nation, to keepe a good quarter with the <hi>Hol<g ref="char:EOLhyphen"/>landers,</hi> hath been proved by twenty undeniable Ar<g ref="char:EOLhyphen"/>guments.</p>
+                     <p>Beſides who can gain-ſay, but that they are Chri<g ref="char:EOLhyphen"/>ſtians? Nor doe they (as it is ſcandalouſly ſurmiſed) profane the Lords day; nor in the leaſt omit his ſer<g ref="char:EOLhyphen"/>vice: have they not ſet a deep forfeiture on any per<g ref="char:EOLhyphen"/>ſon that ſhall be found to ſell any thing on the Sab<g ref="char:EOLhyphen"/>bath day? And ſure I am, that amongſt them, thou ſhalt not ſee ſuch a ſpectacle as <hi>Pauls Church</hi> is in, at pre<g ref="char:EOLhyphen"/>ſent; for that they would either pull it downe, or build it up againe; to the end that ſtrangers ſhould not have occaſion to queſtion their Chriſtian profeſ<g ref="char:EOLhyphen"/>ſion. Therefore ſirra Captaine let me adviſe thee to leave thy crackings, quackings, and Fulminations, as alſo thy grinning at my Coat, the which I muſt tell you, is lyned with a good Fur: For though I doe ſometimes talke of a green Cheeſe, and of Freeze<g ref="char:EOLhyphen"/>land Mares; yet am I of ſuch a conſtitution, as not to bluſh at any Nick-names of Butter-box, Flem<g ref="char:EOLhyphen"/>ming, or the like; to which I have a reply at hand, and that in Ryme too; For that it is granted we doe love Butter, and we doe finde it to be good, according to the ſaying; <hi>Buttertie voor, en buttertie naer, doet Een Mens leven hondert Iaer;</hi> which I will thus engliſh you, <hi>Butter before meales, and after repaſt,</hi> will make a man hundreds of yeares out-laſt. In this ſenſe it was, that Prince <hi>Maurice</hi> of <hi>Orange</hi> outvide the Marqueſſe of <hi>Spinolas Quible,</hi> when as he feaſted the ſaid Marqueſſe during the Treaty of their Truce; and at which
+<pb n="14" facs="tcp:153578:22"/> time the ſaid Marqueſſe tooke an occaſion to com<g ref="char:EOLhyphen"/>mend his Country, preferring it before <hi>Holland;</hi> in<g ref="char:EOLhyphen"/>ferring how that Lemmons and Orenges did grow there twice a yeare, whereunto Prince <hi>Maurice</hi> ſaid, that <hi>Holland</hi> muſt needs be a far better Country, for there Butter and Cheeſe did grow twice a day: and whereby his Souldiers were maintained fat and lu<g ref="char:EOLhyphen"/>ſty; and thus much I thinke ſir Captaine may ſerve your turne, in lieu of our Butter-box-Flemming Ti<g ref="char:EOLhyphen"/>tle, which you ſo unhandſomely brand us with.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Be ſhrow my heart thou haſt hit the Naile on the head now; in good ſooth, I did alwaies reſpect this Dromidary Freeze-lander to be ſome diſquiſed Rhetoritian, purpoſely ſent to walke about our Ex<g ref="char:EOLhyphen"/>change, for to obſerve the diſpoſitions of Men: you ſee how he hath wit at will, and can ſpeake to the purpoſe too, moſt like a cunning Logitian; however to the point Merchant I pray you.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>Truly if it be ſo, as that the Engliſh Sea<g ref="char:EOLhyphen"/>men have firſt abuſed the <hi>Hollanders,</hi> and that all the bruits which are come from <hi>Portſmouth,</hi> are not well grounded; why then it concernes every one of us to be circumſpect and watchfull, for to diſco<g ref="char:EOLhyphen"/>ver what Firebrands theſe are which goe about to put ſtrife betweene theſe two Nations, that ſo they may make the Devill keepe a Holy-day; nay that the Turks and Infidels may laugh at us, when as they ſhall ſee thoſe, which profeſſe one and the ſelfe ſame Religion, ſheath their Swords in each others bowels, <hi>Cui bono?</hi> for that this queſtion wil certainly be made by all juditious honeſt and wel meaning perſons. And as then, will not all wiſe Statiſts conclude, that the great Devill of deluſion hath blind-folded us, even
+<pb n="15" facs="tcp:153578:22"/> in a time, when as our moſt aſſured intelligences do<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> confirme unto us from all parts, that our Adverſaries doe greatly combine againſt us; and that in caſe wee doe not haſten to prevent them, they will venter ere long to bang us by Bell, Booke, and Candle, ſince its too apparant that the <hi>Spaniards</hi> and <hi>French</hi> will be ne<g ref="char:EOLhyphen"/>ceſſitated to agree; and their diſcontented Princes may as ſoone be moved to put up their Swords, which if they doe, ſhall we not, I pray you be the object of their ſa ſa.</p>
+                     <p>But now to the point, in reference to that which is bruited concering the inſtances which are ſaid to be made for the Parliaments repealing of their Act, concerning the prohibiting of the Importation of Goods for ſtrangers, and the which is ſuppoſed to be an unqueſtionable meanes to undoe the <hi>Hollanders,</hi> and to increaſe the Engliſh Navigation: For (as ſome conceive) were it otherwayes, why as then ſhould the <hi>Hollanders</hi> be ſo ſolicitous (as they are ſaid to be) to have that Act repealed?</p>
+                     <p>Herein I ſhall ingeniouſly declare unto you, what I have learnt by experience; and I ſhall prove it un<g ref="char:EOLhyphen"/>to you, how that the prohibiting of Importation of Goods by ſtrangers, will neitheir encreaſe the Eng<g ref="char:EOLhyphen"/>liſh Navigation, nor undoe the <hi>Hollanders;</hi> but on the contrary, it will be extreame prejudiciall unto the Engliſh Nation.</p>
+                     <p>As for example, in the firſt place; The cuſtomes will be diminiſhed by the halfe: for that ſtrangers pay double cuſtomes; Nor will the waſte of Commo<g ref="char:EOLhyphen"/>dities be greater then formerly, whoſoever the Im<g ref="char:EOLhyphen"/>porters be.</p>
+                     <p>Secondly, Suppoſe that from <hi>London</hi> there be 40.
+<pb n="16" facs="tcp:153578:23"/> 50. or 100. Ships more ſet forth to fetch Commodi<g ref="char:EOLhyphen"/>ties; yet it muſt be granted, that there will be 500. Ships leſſe imployed from the other parts of <hi>Eng<g ref="char:EOLhyphen"/>land, Scotland,</hi> and <hi>Ireland,</hi> which were uſed to fetch all manners of Wares from <hi>Holland.</hi>
+                     </p>
+                     <p>
+                        <hi>For all the Sea Townes in</hi> England <hi>carry one or other Commoditie conſtantly for</hi> Holland, Zealand, <hi>and other parts beyond the Sea, yea divers Townes, as</hi> Yorke, Hull, <hi>and all the Countries,</hi> Yarmouth, Norwitch, <hi>and all that Country; and ſo likewiſe of</hi> Colcheſter, Sandwich, <hi>and other hath the chiefe Sale, and vent for their Commodi<g ref="char:EOLhyphen"/>ties, and they goe over not halfe freighted, yet commonly all of them returne full of all manner of Commodities from thence: In ſtead whereof they muſt all returne for the moſt part empty, becauſe moſt of what they bring from thence, are Commodities of other Countries growths, whereby Trading will ceaſe, Merchants will be conſtrain<g ref="char:EOLhyphen"/>ed to ſtay for returnes till their Commodities be ſold, and their monies received, for to make them over by exchange unto</hi> London, <hi>and returne thither with their empty Ships: So likewiſe will they be conſtrained to return their monies thither in ſuch Commodities as they want, at much dearer Rates (even for their ready money) then they could have had them for in</hi> Holland <hi>upon time, and would have made two or three returnes from</hi> Holland, <hi>be<g ref="char:EOLhyphen"/>fore they can make one in this way.</hi>
+                     </p>
+                     <p>
+                        <hi>Beſides that ſome wares are cheaper in</hi> Holland, <hi>then at the place where they grow, and where they are made. Moreover it will prove a great loſſe to all the Townes in</hi> England, <hi>that they may not take this opportunity, but muſt he forced to goe further to buy Hempe; To</hi> Danzick <hi>for Corne, to</hi> Venice <hi>and</hi> Zant <hi>for Currens, run great hazards, eſpecially in theſe times, (when as the Seas are
+<pb n="17" facs="tcp:153578:23"/> beſet with numbers of men of War) and loofe many moneths time to</hi> buy their wares dearer.</p>
+                     <p>
+                        <hi>Beſides that all theſe Townes commonly ſave halfe of all their exchanges by the returne of thoſe Commodities, and many get the double of their exchanges by returne of them.</hi>
+                     </p>
+                     <p>To all which, the experient in the Traffick do adde this for a maine Argument, of the undoing of the Trade of moſt of the Townes, in <hi>England. viz. In that all other Townes except</hi> London, <hi>can vent but a lit<g ref="char:EOLhyphen"/>tle Hempe, a little Iron, a little Spice, and ſo of a hundred things more, and therefore its argued thus.</hi>
+                     </p>
+                     <p>
+                        <hi>That their Ships muſt needs lye ſtill, becauſe thoſe ſmall Townes cannot vent a Ships loading of each, or of two or three Commodities; nor have they money enough to have a ſtock lye in</hi> Holland, <hi>in Wares to be ſold; and another ſtock to be ſent to another place, to fetch home Commodities from ſo remote Countrie.</hi>
+                     </p>
+                     <p>
+                        <hi>That many</hi> Hollanders <hi>will goe and dwell in</hi> Eaſt<g ref="char:EOLhyphen"/>land, France, <hi>and other places; and ſo will bring home Hempe, Pitch, and Tar from</hi> Eaſtland; <hi>as alſo Wynes, and Salt from</hi> France <hi>and</hi> Spaine, <hi>the which as it cannot bee hindred, will enrich them, and impoveriſh</hi> England.</p>
+                     <p>
+                        <hi>And as experience tells, that as by this meanes all, or many Forrayne Commodities will be the dearer in</hi> Eng<g ref="char:EOLhyphen"/>land, <hi>it will thereupon enſue that the Engliſh Nation will looſe a great part of their Trade in forraigne parts; and that the</hi> Hollanders <hi>will incorporate the ſame to them<g ref="char:EOLhyphen"/>ſelves, by being alſo to ſell cheaper then the Engliſh.</hi>
+                     </p>
+                     <p>And this for the particular reaſons, whereby the Argument is made the more infallible, in that they have more Money then they can well beſtow at three and foure <hi>per cent.</hi> uſe; and that as they have more
+<pb n="18" facs="tcp:153578:24"/> Water then Land, nor any Parkes for to ſquander a<g ref="char:EOLhyphen"/>way their monies on wild Deeres; nor doe they mar<g ref="char:EOLhyphen"/>ry unto Lords Sons, or Ladyes Daughters, for that they ſay <hi>Sort by Sort:</hi> they therefore imploy all their monies upon Traffick, which they purſue with the more eagerneſſe; all which conſidered, I would faine know by what meanes you intend to put them out of their Trade, or hinder them to buy and ſell Commodities, at better Rates then the Engliſh can buy them, in thoſe parts where they grow?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>I doe perceive by thy diſcourſe, that thou haſt mainly ſtudyed this Caſe.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>I ſay nothing but what experience prompts me unto, whereby it may alſo be made good, how that the ſole meanes, whereby the Engliſh Traf<g ref="char:EOLhyphen"/>fick may be encreaſed, is to pitch upon ſuch benefici<g ref="char:EOLhyphen"/>ciall eſtabliſhments, as are mentioned in the firſt part of the <hi>Sea-Cabbin Dialogue:</hi> for that by them mo<g ref="char:EOLhyphen"/>nies will be reduced to a lower value, and for the want whereof, the Engliſh will never be able to buy and ſell at ſuch eaſie Rates as the <hi>Hollanders</hi> do.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Me thinkes thou ſpeakeſt of particulars, which are mentioned in the firſt part of the <hi>Sea-Cab<g ref="char:EOLhyphen"/>bin Dialogue;</hi> ſo likewiſe did I heare of other relati<g ref="char:EOLhyphen"/>ons, concerning thoſe advantages which wiſe Statiſts have ever found in the impoſing of ſmall Taxes on the importation and exportation of Merchandizes: when as the Merchants doe not ſo much as thinke on the defrauding of the cuſtomes; nor on the decei<g ref="char:EOLhyphen"/>ving of each other, by their ſundry falſifications of Wares.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>Hereon I muſt needs tell you, how that the bare Animoſity and ſelfe-Intereſſedneſs of ſome per<g ref="char:EOLhyphen"/>ſons,
+<pb n="19" facs="tcp:153578:24"/> have oftentimes cauſed an interruption in the good correſpondency between Nations. As for in<g ref="char:EOLhyphen"/>ſtance, The breach betweene <hi>Henry</hi> the ſeventh, and <hi>Charles</hi> Duke of <hi>Burgundy;</hi> with the Emperour <hi>Charls</hi> the fifth, between Queene <hi>Elizabeth</hi> and <hi>Phillip</hi> the ſecond; as alſo thoſe with <hi>Spaine</hi> and <hi>France,</hi> in the late Kings time: when as at length, after the ſeverall Nations and Parties had ſufferd by the like interrup<g ref="char:EOLhyphen"/>tions, it was found requiſite to order things againe at any Rate; and thus defective and diſadvantagious Treaties were patcht up.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>But I pray you? what is that which is whiſ<g ref="char:EOLhyphen"/>pered among curious men, touching ſeverall parti<g ref="char:EOLhyphen"/>culars which are contained (in a Remonſtrance; and the which hath of late been proffered to the Par<g ref="char:EOLhyphen"/>liament, wherein the Author ſaith, that in caſe there be not any reflection made on his proffers, he as then remaines a free man borne; and in this ſtates regards a ſecond Colomba.</p>
+                     <p>The foregoing lines, of which concluſion makes mention of one <hi>Kelly</hi> in Queen <hi>Elizabeths</hi> dayes, who (to the knowledge of ſeverall perſons of credit in thoſe dayes, eſpecially old Mr. <hi>Challoner.</hi>) had the ſecret of producing of gold, and for the which all the world ſought unto him.</p>
+                     <p>Now truly my ſelfe have been on ſome nooks and parts of the golden World, where I heard that there are certaine particular men, who Trade in Gold, and bring it in lumps to the <hi>Spaniards,</hi> though they will not diſcover unto them how they come by it, and its thought that they have ſome particular myſtery therein; nay even an Art of Production.</p>
+                     <p>And if I be not deceived, I was alſo told hereof,
+<pb n="20" facs="tcp:153578:25"/> in the ſame leafe of the ſaid Remonſtrance, it is ſaid that the Proponants ſecrets are of another gueſs ex<g ref="char:EOLhyphen"/>tent and value then thoſe, whereon Sir <hi>Water Rawley</hi> and Captaine <hi>Cavendiſh,</hi> had fixt their deſignes.</p>
+                     <p>So likewiſe heard I another Captaine ſay, that to his knowledg they were of another gueſs nature then Sir <hi>William Wallers</hi> late deſigne.</p>
+                     <p>Now in caſe this be ſo, why ſhould we not looke after it? for if wee ſhould not fall foule with the <hi>Hollanders,</hi> or with any other Nations (as the <hi>French</hi> who are already together by the Eares) why ſhould we as then be ſo neglectful of our owne good, as to ſuffer any other Nation to bereave us of ſuch an advantage, and take it away even before our Noſes? Beſides are there not many Cavaleers abroad, who are able to ſcrape ſuch a ſtock together, as may well ſerve for ſo ordinary an equipage, towards the effect<g ref="char:EOLhyphen"/>ing of the ſame; and whereof the Proponant ſpeakes.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>Truly as for my part, I conceive that ſome ill informed perſon may thinke, that a Reply appro<g ref="char:EOLhyphen"/>ving of what you ſay, might ſavour of an Act, to take off the edge of your firſt fury againſt the <hi>Hollanders.</hi> But as for my ſelfe, I doe ſpeake ſincerely, and really as I meane, and as I believe; and therefore I anſwer you thus in generall termes.</p>
+                     <p>That the ſafeſt Maximes which this ſtate may put in practiſe, are to procure unto the Engliſh Nation all the poſſible advantages that may be, eſpecially to<g ref="char:EOLhyphen"/>wards the attaining unto all Chriſtians, glorious and profitable goods: And whereas many of us do con<g ref="char:EOLhyphen"/>ceive that the Parliament reflects on providence; ſo do many of us believe, that the Officers of their Ar<g ref="char:EOLhyphen"/>mies,
+<pb n="21" facs="tcp:153578:25"/> eſpecially their Generall the Lord <hi>Cromwell,</hi> in<g ref="char:EOLhyphen"/>tend the ſame; not that he reflects on that which Almanack-makers and other ſuch like Pamphet-wri<g ref="char:EOLhyphen"/>ters ſet forth; How that the Pope ſhall be pulled out of his Seat by him, by reaſon of a Lyon which he bears in his Arms: But that the true Lyon of <hi>Judah</hi> is he, who ſhall pull all thoſe out of their Seats, who doe poſſeſſe them on falſe grounds. Now, in caſe heaven hath Decreed that this ſhall be effected in theſe dayes; and by a ſecondary means, <hi>viz.</hi> The Parliament of <hi>Englands</hi> happy Genius, although there were no ſuch thing in his Arms as a Lyon; It might queſtionleſſe be encompaſſed without the in<g ref="char:EOLhyphen"/>fluence of the Stars, and alluſions of Almanack-ma<g ref="char:EOLhyphen"/>kers: For that the Lord hath a regard unto the in<g ref="char:EOLhyphen"/>tentions of men: <hi>Cains</hi> ſacrifice was one as well as <hi>Abels,</hi> although not accepted of; and its moreover ſaid, <hi>My ſon, give me thy heart,</hi> &amp;c. Now for as much as concerns the other particular, which you hinted at; Truly this is my opinion thereon, That it would be a farr wiſer part to minde ſuch like Chriſtian, glorious, and beneficiall atcheivements as you ſpeak off; wa<g ref="char:EOLhyphen"/>ving the enraged humour of ſhedding of blood, and ſetting of the very Seas on fire; whereby we ſhould but give the Devil an advantage over us, and would he not thereby have handſomly compaſſed his own ends?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Thou ſayeſt very well, and I doe alſo re<g ref="char:EOLhyphen"/>member that my friend, who acquainted me, with the Contents of the aforeſaid Remonſtrance unto the Parliament; told me, how that the great Favourite, the late Duke of <hi>Buckingham,</hi> had fixt his minde on that ſecret deſigne; when as he intended his ſecond
+<pb n="22" facs="tcp:153578:26"/> Voyage towards <hi>Rotchel;</hi> to which intent, he had (by a Treaty with the late King of <hi>Sweden, Guſtavus Adolphus</hi>) put himſelf under the ſaid Kings prote<g ref="char:EOLhyphen"/>ction.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>Why, truly as now you doe awaken my me<g ref="char:EOLhyphen"/>mory thereon; for that I call to minde certain over<g ref="char:EOLhyphen"/>tures, which were once made by one Maſter <hi>Fourbiſher,</hi> unto the ſaid King.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Which mean you? Thoſe which were in<g ref="char:EOLhyphen"/>vented by a Scot, one Sir. <hi>Thomas Diſhington</hi> (who by a Wit of this Nation was uſually tearmed, a mouldy Turd) the ſame who when he was in <hi>France,</hi> under the pretence of being a Scotch Intelligencer, (though he could ſcarce Marſhal up ten words of ſenſe together) ſerved the French as a ſpye.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>The ſame, the ſame, 'tis he himſelf.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>I marry, that Dreamer vented a world of Chy<g ref="char:EOLhyphen"/>mera's, concerning one Seignior <hi>Pedro,</hi> who had been his fellow priſoner in the <hi>Baſtile</hi> at <hi>Paris;</hi> and who as Sr. <hi>Thomas</hi> pretends) had left his wife and children in a place where gold did grow, as riſe as graſſe; and where (as the ſuppoſer ſaid) the ſunne had ſolidated a vein of maſſiff gold as thick as a mans thigh; which (like a Bracelet about a Ladies neck) did ſurround a hill in <hi>Cicily,</hi> neere unto the Town of <hi>Palerma.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Mer.</speaker>
+                     <p>Why, this is a meer Chymera indeed; this was a meer deviding, <hi>la pela de l'orſſo,</hi> the skin of a Bear, yet untaken: but ſuppoſe ſuch a thing were; what a number of Pick-axes and Mattoks would there not be requiſite to dig up that golden branch? After which, I pray you, how ſhould it be gotten thence? unleſſe a man could by ſome myſticall con<g ref="char:EOLhyphen"/>juration, or by the ſtrength of his faith, remove that
+<pb n="23" facs="tcp:153578:26"/> ſame Mountaine: However had <hi>Guſtavus</hi> had as much faith as a graine of Muſtard-ſeed, he would have removed the ſaid <hi>Diſhington</hi> from <hi>England,</hi> and cauſed him to be hanged at <hi>Stock-holm,</hi> after the ma<g ref="char:EOLhyphen"/>ny favours he had conferred on him, whereof the late Duke <hi>Hamilton,</hi> and ſeverall other eminent perſons of the Engliſh Nation being witneſſes, did admire; but at length the ſaid King found himſelfe to be cheated by the ſaid Sir <hi>Tho.</hi> who had no leſs then fifteen thou<g ref="char:EOLhyphen"/>ſand Dollers given him by the ſaid King, for the diſ<g ref="char:EOLhyphen"/>covery of his pretended ſecret, as Mr. <hi>Ailsberry</hi> the Miniſter of the Engliſh Church at <hi>Hamborough</hi> full well knoweth.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>And muſt I all this while keepe my peace? wrapt up in a Coat, at which you have ſo much carpt; O yea wiſe men of <hi>Gotam!</hi> could not you all this while procure unto your ſelves the diſcovery of that ſecret, which a Spaniſh ſecond, <hi>Anthonio Peres</hi> mani<g ref="char:EOLhyphen"/>feſted to the Duke of <hi>Buckingham,</hi> that white faced man, whom the <hi>Spaniards</hi> conceived to be the perſon with gray Eyes; and of whom the <hi>Indians</hi> (that can make Gold by their ſecret way of production) be<g ref="char:EOLhyphen"/>lieve a prophecie, <hi>viz.</hi> How that there ſhall come a<g ref="char:EOLhyphen"/>mongſt them a Nation with Flaxen haire, white fa<g ref="char:EOLhyphen"/>ces, and grey Eyes, who ſhall enjoy <hi>Kellies</hi> ſecret: at which time the leaves of the Trees in that Land ſhall be as Gold? And theſe are the words in that Remon<g ref="char:EOLhyphen"/>ſtrance which you ſpeake of. Sirra Captain, More<g ref="char:EOLhyphen"/>over, I can tell you, now that the <hi>Spaniard,</hi> who re<g ref="char:EOLhyphen"/>vealed the ſaid ſecret unto the Duke of <hi>Buckingham,</hi> was for his paines poyſoned by the King of <hi>Spaines</hi> black Fovourite.</p>
+                     <p>And to the end that ye may heare, ſee, and know,
+<pb n="24" facs="tcp:153578:27"/> I can ſpeake of other gueſs things, beſides greene Cheeſe, and Freeze-landers Mares; know you alſo, ſirra Captain, that it is but too manifeſt, that in former ages there were <hi>Seekers,</hi> as well as in this; but which of the two were the wiſeſt Seekers? there is the que<g ref="char:EOLhyphen"/>ſtion.</p>
+                     <p>So likewiſe are there ſundry propounders, ſome will goe about to Cozen, and others that mean well; let me tell you, that if ſo be Sir <hi>Water Rawley, Caven<g ref="char:EOLhyphen"/>diſh,</hi> and Sir <hi>William Waller,</hi> had not been interrup<g ref="char:EOLhyphen"/>ted, they might have found; But as for ſuch a See<g ref="char:EOLhyphen"/>ker as <hi>Disſhington</hi> was, he might have ſought to all eternity, and as then be as far to ſeek as ever, for he that holds not Lands <hi>in Capite;</hi> and he (as the <hi>Italian</hi> ſaith) that hath there <hi>Camera Locante,</hi> will be far to ſeek, although he ſhould have Parret-like, learned a ſpeech to fore-ſtall the glorious advantages of ma<g ref="char:EOLhyphen"/>king towards ſuch maine ones, for to make that ſure, and for to transporr Colonyes thither; to which pur<g ref="char:EOLhyphen"/>poſe fine things are invented to amuſe people with<g ref="char:EOLhyphen"/>all, eſpecially ſuch as will be Cozened, according un<g ref="char:EOLhyphen"/>to the ſaying, <hi>volenti non fit injuria;</hi> for that ſuch things are eaſily ſwallowed, if ſo be they are finely gilded.</p>
+                     <p>
+                        <hi>Disſhington</hi> he aimed at a deſigne to intrap ſome great perſons, on a pretence to tranſport a Colonie; but the queſtion is; whether he had ſo much honeſtie and underſtanding, as was requiſite for ſuch an un<g ref="char:EOLhyphen"/>dertaking; though 'tis true, he had lighted on a Rhetorick, which better wits then himſelfe had ven<g ref="char:EOLhyphen"/>ted. <hi>viz.</hi> That to move men towards the planting of a Colonie, and to beget in them a diſpoſition to aban<g ref="char:EOLhyphen"/>don their naturall Soyle, to inhabit another: They
+<pb n="25" facs="tcp:153578:27"/> muſt be entertained with the hopes of conqueſting ſome great matter, and the which muſt be hard to come by, for that elſe it would not ſeem to be a wor<g ref="char:EOLhyphen"/>thy undertaking for them.</p>
+                     <p>As for inſtance, The conqueſting of the golden Fleece, the obtaining of a Land promiſed unto the <hi>Iſraelites,</hi> and the like; to obtaine Victories againſt the common Enemy; unto which if you add the pul<g ref="char:EOLhyphen"/>ling of that dayld beaſt, <hi>Anti-Chriſt</hi> out of his Ro<g ref="char:EOLhyphen"/>miſh ſeate, it will not be amiſs; for that ſuch things take with the vulgar: as alſo the enlarging of a Na<g ref="char:EOLhyphen"/>tions bounds on other Soveraignes and Nations: All which propoſitions, as they muſt be pleaſing, ſo muſt they be feaſiable, for to keepe the peoples minds in a longing expectation, and in a conſtant reſolution,</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>How now man? art thou a ſleepe Freeze-lan<g ref="char:EOLhyphen"/>der, ſaiſt thou? art thou not rather ſome <hi>Joſeph Scali<g ref="char:EOLhyphen"/>ger,</hi> tranſlated into the lyning of a Coat? art thou not ſome <hi>Franecker</hi> or <hi>Leawarden</hi> profeſſor? For as now thy language, and diſcourſes plainely diſcover, that thy former termes and compariſons were but meere diſguiſes, and that thoſe gooddy driggle drag<g ref="char:EOLhyphen"/>gle tayles with her Goſſips, were but feined per<g ref="char:EOLhyphen"/>ſons: have I found you out I faith? I know now where thy Baſhs lye (as the ſcofts ſay) why even to make us ſpeake our minds, and thereon to take thy Raiſe: are you there with your Beares ſir? why now we ſhall have you open up to us, the Greek and La<g ref="char:EOLhyphen"/>tin ſtories, and expound unto us the two waies where<g ref="char:EOLhyphen"/>by men muſt be ruled; how Armies are to be man<g ref="char:EOLhyphen"/>aged, and how an Army is to be embatalled; how they are to be kept on foot, and how by them a man may attaine unto his ſeverall ends.</p>
+                     <pb n="26" facs="tcp:153578:28"/>
+                     <p>Moreover, I doe perceive that according unto the ſtory of the Wine, thou haſt ſtudyed how to poſſeſſe the hearts of men, how to maſter their Forces, and how to daunt their courages: ha, ha, good Mr. Doctor <hi>Freeze,</hi> I have diſcovered thee I trow.</p>
+                     <p>Thou maiſt happily have made that inſcription which a <hi>Venetian</hi> Ambaſſador had placed over his Coat of Armes. <hi>viz. Populi, &amp; Regum, noſſe ingenium:</hi> for that I perceive its thy Maxime, to endeavour to dive into the bottome of each ones particular inte<g ref="char:EOLhyphen"/>reſts: There are indeed but two waies to Govern men by, either by Force or Love. The ſecond where<g ref="char:EOLhyphen"/>of cannot well be practiſed, without ſome diſſimula<g ref="char:EOLhyphen"/>tion, if not deceit; and this in effect hath a reference to the two former ſayings, the which I have been mo<g ref="char:EOLhyphen"/>ved to utter, on thy ſudden diſcovering of thy ſelfe: my now Latin <hi>Freeze,</hi> whoſe Maſter of Art-like ex<g ref="char:EOLhyphen"/>preſſions, infer how that the practicall part of a true States-Mans univerſall principall, is to offer unto all thoſe who are to be gained, a preſent and ſafe preſer<g ref="char:EOLhyphen"/>vation of their particular intereſts.</p>
+                     <p>The <hi>Hollanders</hi> Common-Wealth, together with ſeverall others, have ſhaken the Monarchicall Yoaks from their Necks, have made themſelves maſters of Armies, of Treaſures, as well as of the meanes and lives of men; nay of particular men, as alſo of all the ſtate preſenting priviledges to their inhabitants, they reformed the Religion; yet with a kind of To<g ref="char:EOLhyphen"/>leration even to the Romaniſts at firſt. They confer<g ref="char:EOLhyphen"/>red glory on the Souldiery, and received the Nobility into eminent places.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freeze.</speaker>
+                     <p>I Marry, but he that deſires to vanquiſh by love and faire meanes, muſt avoid the giving cauſe of
+<pb n="27" facs="tcp:153578:28"/> ſuſpition, leaſt they might apprehend, that he intends to mix his particular ends with their intereſts: And therefore let him ever propound that by a third par<g ref="char:EOLhyphen"/>ty, which he deſires to compaſs: let him endeavour to render every one capable of it in particular, that to all whatſoever he ſaith and doth, may tend to that his wiſhed end.</p>
+                     <p>Let him in all his proceedings, ſhow his love unto all men, integrity in all his Negotiations, mildneſſe in the beginning, courage in the progreſſe, and at laſt, his ſtrength in the prevailing; as for example the wine doth which we before ſpake of: for that at firſt it ſuffers it ſelfe to be maſtered in divers reſpects, un<g ref="char:EOLhyphen"/>till at laſt it being gotten into the ſtomacks of Men, it thence aſcends up unto the head, and ſo by its ſtrength over-maſters the Man its maſter.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Ha, ha, my <hi>Freeze,</hi> I thought I had found you out.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>The greateſt ſecret amongſt Polititians, hath ever beene to embrace and eſtabliſh a Religion, to maintaine Juſtice, and equally to adminiſter the ſame; But, and if they had done no more, they had done juſt nothing: for that you muſt know, Religion hath two parts; the firſt is a profound knowledge, the ſecond is an obedience in the obſerving of Com<g ref="char:EOLhyphen"/>mands, which laſt is generally received by all men. <hi>viz</hi> By thoſe of the Reformed Religion, the <hi>Calviniſts, Lutheranes, Anabaptiſts, Browniſts, Papiſts, Jewes, Turks,</hi> and all of them doe generally agree on the point of obeyſance and obedience in relation to thoſe things which are commanded, whether they be naturall, morall, or divine: yet however the firſt part is dan<g ref="char:EOLhyphen"/>gerous, conſiſting in evaſions, controverſies, and ca<g ref="char:EOLhyphen"/>vils,
+<pb n="28" facs="tcp:153578:29"/> which are the meer off-ſpring of all diſputations, contentions, Schiſmes, and diviſions.</p>
+                     <p>The people muſt not be made to learned, but muſt be kept at worke by Handy-crafts, and liberall Arts, though but ſoberly fed with knowledge.</p>
+                     <p>Wherefore many have blamed <hi>Agrippa de vanitate ſcientiarum.</hi>
+                     </p>
+                     <p>Was it not a maine madneſſe in thoſe who thwar<g ref="char:EOLhyphen"/>ted the erecting of an Academy for all Arts and Sciences: which would not at all have moved ſpirits to ſuch an inſolent rebellious humour, as your in<g ref="char:EOLhyphen"/>ſolent double Night-Capt ſnivelling noſed would be States Preachers, have lately done; and whom the <hi>Hollanders</hi> doe handſomely pay home with a ba<g ref="char:EOLhyphen"/>niſhing bill of Diſmiſſion, whereas they preſume to tell their Rulers, things muſt be done thus and thus; and you ſhall doe whatſoever we brawle and roar in the Eares of gooddy Driggle Draggle tayle, <hi>Wabbetie Clonters,</hi> and <hi>Jannetie Stronts,</hi> together with ſuch o<g ref="char:EOLhyphen"/>ther Turf wives, and Butter-whores, who they ſet on to break their Rulers brains.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Goe to my <hi>Freeze-lander?</hi> I ſee I have not judged amiſs of thee, and I do heartily thank thee for thy having thus diſcovered thy ſelf.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>O what a hap is this! 'twas a good wind in<g ref="char:EOLhyphen"/>deed that put us by our firſt conceptions; who would have thought that we ſhould have pitcht upon this diſcourſe?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Why the very truth is, that when I heard thee utter all thoſe Arguments on the point of a free importance (it being a buſineſſe which I have not at all dived into) I thought it not fit to make any Re<g ref="char:EOLhyphen"/>ply thereunto; beſides that the Parliament is wiſe,
+<pb n="29" facs="tcp:153578:29"/> and knowes beſt whether or no it ſtands with their intereſt to leave a free Commerce or no? For that they (heing the quinteſſence of the Lands wit) will doubtleſſe take ſuch a reſolution thereon, as ſhall ſeem moſt conſonant with this Common-wealths concernment. Nor was there ever any great General juſtly blamed for the raiſing of a Siege, when he could imploy his Army better in another undertaking: &amp; in this ſenſe it was that I reflected on a better occupation then blood-ſhedding; and therefore I rather chuſe to call unto mind that particular which is ſpoken of in the Remonſtrance lately given to the Parliament, <hi>viz.</hi> The profers of great Secrets, and other advan<g ref="char:EOLhyphen"/>tages; For that truly I have heard much of a thing which hath not as yet been revealed.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>Truly if the caſe be ſo, why as then Captain it will greatly import thee to look after thoſe things, both for thine own and the publicks good.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>And why ſhould it not as much concern your ſelf I pray?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Merch.</speaker>
+                     <p>Alas! we Merchants (at leaſt many of us) are like reſty Horſes, that neither can, nor will be bea<g ref="char:EOLhyphen"/>ten out of their old Track, according unto our ſeve<g ref="char:EOLhyphen"/>rall vocations; if you tell me of a <hi>Balthazar de Mou<g ref="char:EOLhyphen"/>cheron,</hi> or a <hi>Curtin,</hi> and ſuch like; why they I grant have been fit for ſuch undertakings: but however, by the by, it ſeems ſomewhat ſtrange unto me, that the State looks not after ſuch things: And on the o<g ref="char:EOLhyphen"/>ther ſide alſo, it ſeems as ſtrange to me, that ſince the Proponant is a ſtranger, he hath not made his propo<g ref="char:EOLhyphen"/>ſals thereon to the Eaſt and Weſt Indie Companies in <hi>Holland;</hi> and wherefore ſhould a thing, which may be ſo great a conſequence, as you infer by your hinting
+<pb n="30" facs="tcp:153578:30"/> on <hi>Kelly,</hi> in Queene <hi>Elizabeths</hi> dayes, periſh with him? And we talke ſo much of <hi>Loreto, Civita <g ref="char:V">Ʋ</g>echia,</hi> or any other Landing Port, to ſeek for I know not what; (though the deſigne were never ſo good) and neg<g ref="char:EOLhyphen"/>lect to make our ſelves ſure of a Treaſure; after which the men of all ages have ſought; and whereby all the Worlds atcheivements are to be compaſt and ſtrengthned.</p>
+                     <p>Moreover, why doe we hear men talk of a particu<g ref="char:EOLhyphen"/>lar, which is contained in the aforeſaid Remonſtrance, touching ſeven millions of pounds due unto this Na<g ref="char:EOLhyphen"/>tion; and why is there no reflection made thereon, whilſt that we let our minds rove afar off in ſeeking after things ſo remote; and in the mean while, none of us ſeems ſo much to mind theſe concernments at hand, as to ſay, let us have thoſe ſeven millions of pounds, for that they may ſerve to take off the Aſſeſs<g ref="char:EOLhyphen"/>ments and other charges, and ſo disburden the Peo<g ref="char:EOLhyphen"/>ple; the rather, for that the Gentlemen who knows the meanes to recover the ſaid ſeven Millions of pounds, doth inceſſantly crave leave to be there<g ref="char:EOLhyphen"/>unto authorized, onely in four Words. <hi>viz. Goe and get them.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>Truly it is a ſtrange fate which doth infatuate the brains of men that will not hearken to ſuch faire proffers.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freeze.</speaker>
+                     <p>Good Captaine, I muſt conclude, with that which hath proved to be true in all ages: <hi>The weak<g ref="char:EOLhyphen"/>neſſe of ſome men is ſuch, as that it doth often move them to neglect ſuch things as are proffered unto them; and to ſeeke after thoſe which flye them.</hi>
+                     </p>
+                     <p>And this is one of the maine cauſes why we in all ſtates find a world of men, who doe ſo over-practiſe
+<pb n="31" facs="tcp:153578:30"/> the ſaying. <hi>viz. To meddle with nothing is beſt:</hi> as that at length, they prove to be good for nothing, and ſo farewell.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>I pray you my worthy <hi>Freeze,</hi> do not cut off ſo ſhort, let us enjoy thee ſomwhat longer, and let us en<g ref="char:EOLhyphen"/>large our conference, ſince we met for the beſt.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>What would you have us to diſcourſe of be<g ref="char:EOLhyphen"/>ſides?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Marry, I would fain hear thy opinion on our preſent caſe; and what courſe (to thy thinking) there ought to be taken concerning the Law?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>Why have you not that, by <hi>vox populi?</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>What ſay you of <hi>vox populi?</hi> that's <hi>vox dia<g ref="char:EOLhyphen"/>boli.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>So alſo is it <hi>vox Dei,</hi> if ſo be the people were confident that they are worthy of the ſaying, contained in the 23. <hi>Chap.</hi> of <hi>Deut. ver.</hi> 14. <hi>For the Lord thy God, walketh in the middſt of the Camp to de<g ref="char:EOLhyphen"/>liver thee, and to give thine Enemies before thee: there<g ref="char:EOLhyphen"/>fore thine Hoaſt ſhall be holy, that he ſee no filthy thing in thee, and turn away from thee.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>So likewiſe doe I remember, that in the 17. <hi>ver.</hi> it is thus ſaid; <hi>There ſhall be no whore of the Daugh<g ref="char:EOLhyphen"/>ters of Iſrael, neither ſhall there be a Whore Keeper of the Sonnes of Iſrael:</hi> and if the people be free from that ſinne; then indeed may their voyces be, <hi>
+                           <g ref="char:V">Ʋ</g>ox Dei.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>Have not your Rulers made a decree againſt this vermine? and I doubt not, but that at their firſt modelling of the Law, they will have a care to pro<g ref="char:EOLhyphen"/>vide Emphaticall Articles againſt the ſame. More<g ref="char:EOLhyphen"/>over let me tell you, that your crooked Law makes people runne into the crooked paths of ſinne; and that it will never be rectified, unleſſe it be ſquared
+<pb n="32" facs="tcp:153578:31"/> and angled by the Law of God. Beſides unleſſe your Rulers fix on the modelling of a Law, and not on the ſingle reforming thereof, obſerving Gods Commandment unto <hi>Moſes,</hi> to put off his ſhooes, which I conceive to be, by putting away ſinne, the cauſe of the old Law, and to walk upon a holy ground, on ſuch principles as are anſwerable to the dictates of that <hi>Godly Book,</hi> and in particular the Go<g ref="char:EOLhyphen"/>ſpel: Nay, as a Divine ſaith very well, that <hi>Honeſt Book,</hi> in default whereof this your pretended ſetling of the Law will be but loſt labour, and as a meer mock<g ref="char:EOLhyphen"/>ſhow, or as the lamentations of a Theef under the Gallows, who endeavours to protract the time, until ſome brybed reprieve be brought: and therefore I would have your Law ſerved as a Judge did a Theef in Queene <hi>Elizabeths</hi> dayes, who receiving a reprieve for a Malefactor, cauſed the reprieve to be put be<g ref="char:EOLhyphen"/>twixt the Theeves neck and the halter, and then commanded the Executioner to goe through with his part: So would I have the Law to be gone through withall by a ſetting of ſuch Lawes as are anſwerable to the will of God, and as may befit the very eſſence, reſemblance, and being of a Common-Wealth: for that otherwiſe (as I told you before) it will be but loſt labour, and much like the diſcourſes of (a com<g ref="char:EOLhyphen"/>pany of impertinent Logitians) who talking of a Chaos, do perſwade themſelves, that God, out of that confuſed thing (though made by himſelfe as they ſay, and whereby they conſequently argue him to be the Author of confuſion) made the world by de<g ref="char:EOLhyphen"/>grees, determining thence, that things were after<g ref="char:EOLhyphen"/>wards put in order: according to which ſenſe of put<g ref="char:EOLhyphen"/>ting things in order <hi>gradatim,</hi> your Rulers, cannot
+<pb n="33" facs="tcp:153578:31"/> (to my thinking) pitch upon a better expedient, then to ſettle an order which may be conformable unto his orderly diſpoſall, who is the Author of all orderly perfection, and who hath given the ſeverall Celeſtiall Orbs their particular functions. Moreover even as when this grand Artiſt had atcheived all his works, he as then created that image of his, for whoſe ſake all thoſe Celeſtiall bodyes were ordained to per<g ref="char:EOLhyphen"/>forme their ſeverall functions: He as then made Man and Femall, the which he did doubtleſſe with an in<g ref="char:EOLhyphen"/>tent, to the end that the Femall ſhould be of uſe to the man; and therefore (in my minde) it may juſt<g ref="char:EOLhyphen"/>ly be expected, that even this Femall Creature ought to be of a publik uſe in a well ſetled Government, and to beare a fit part in the Common-Wealths con<g ref="char:EOLhyphen"/>cernments; that excepted, which is not allowed of in <hi>Iſrael;</hi> not for the whore keeping Sonnes of <hi>Iſrael.</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Marry, I like very well of your Propoſition, in caſe they be kept out of the Pulpits, and out of the ſeates of Judicature; remember, I pray you, your <hi>Alice Pierce,</hi> and that ſome of them doe but too much exerciſe the patience of men?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freeze.</speaker>
+                     <p>Truly, there have been Propheteſſes a<g ref="char:EOLhyphen"/>mongſt them; and our Lord Jeſus Chriſt himſelf pre<g ref="char:EOLhyphen"/>ferred ſome Women even before his Apoſtles; for that unto a woman he manifeſted the truth of that great good which he had wrought for all mankinde: Women, we ſee, would not leave him; they held him faſt by his feet; they ceaſed not to kiſſe and waſh them with their tears; they followed him even un<g ref="char:EOLhyphen"/>to his death: Nor would they depart from the grave, before they had found him; Women have inſtruct<g ref="char:EOLhyphen"/>ed and admoniſhed men; and Women may be
+<pb n="34" facs="tcp:153578:32"/> thought fit to admoniſh one another at ſelect times in pious meetings.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>I doe confeſſe, that it would be more decent, that they ſhould reveal their faults to each others, then that they ſhould, as the Papiſts, fill the ears of Prieſts with thoſe infirmities, who do alas, ſteal upon them, through the charms and crafty inſinuations of wicked men: when as by their imparting of thoſe ſlips unto Prieſts, it doth for the moſt part happen, that as then, the ſaying is fulfilled; They confeſſe to the Devill, who makes the ſinner worſe then ſhe was before.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freeze.</speaker>
+                     <p>Wiſe and Pious Widdows, as alſo ſuch wo<g ref="char:EOLhyphen"/>men as have left off childe-bearing, and childe-breed<g ref="char:EOLhyphen"/>ing, and who have ſuch under them as are capable to look unto their houſe-keeping, might be imployed in ſeverall directions and functions proper to their Sex; as the Hollanders have ſeveral Eſtabliſhments, where<g ref="char:EOLhyphen"/>of women are the directours, as women had in for<g ref="char:EOLhyphen"/>mer ages the mannaging of great undertakings?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Let not them order dances?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freeze.</speaker>
+                     <p>Such dances as <hi>Miriam, Aaron</hi>'s ſiſter, with all the women and maidens of Iſrael did dance, could not be amiſſe; and which I would have both men and women to practiſe: but let us break off now, I pray you; for that after dancing, its fit to betake ones ſelf to reſt.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Stay yet a while, I pray you; for that I have ſomething more to move concerning women, and the ſettling of the Law.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freeze.</speaker>
+                     <p>You may finde much of the firſt, in <hi>Charls Gerbier</hi>'s <hi>Elogium Heroinum,</hi> and in Mr. <hi>Hugh Peters,</hi> his <hi>Good work for a good Magiſtrate;</hi> by the latter of
+<pb n="35" facs="tcp:153578:32"/> which, moſt caſes concerning Religion, Mercy, and Juſtice, may be regulated in the Common-wealth of <hi>England.</hi> In the firſt, (as I ſay) you will finde ſeverall obſervations note-worthy, touching the uſefull and laudable qualities in Women. In the ſecond, you will meet with all thoſe particulars, which are to be min<g ref="char:EOLhyphen"/>ded by all thoſe, who intend to attain unto a great deal of quiet by a ſhort cut. In the firſt, you will meet with many notable examples of the learning and wiſ<g ref="char:EOLhyphen"/>dome of women; of their conſtancy and courage; of their chaiſtity; of their abilities to govern: he more<g ref="char:EOLhyphen"/>over tels you, how that <hi>Ceres</hi> Queen of <hi>Sicily</hi> was the firſt that taught people to live under laws; that <hi>Va<g ref="char:EOLhyphen"/>laſca</hi> Queen of the <hi>Bohemians,</hi> governed her Eſtates without the Councel or adviſe of any men; he tels you alſo of the Piety, and Religiouſneſſe of women; on the proofs that <hi>Mary Magdalen</hi> and <hi>Martha</hi> her ſi<g ref="char:EOLhyphen"/>ſter, did preach the Goſpel of Chriſt amongſt the <hi>Illi<g ref="char:EOLhyphen"/>rians,</hi> and converted all its inhabitans, how that the <hi>Sara's</hi> were devout, the <hi>Maryes</hi> humble, and pacified perſons: The <hi>Elizabeths</hi> Religious, obſerving all the Commandments of God blameleſſe; the <hi>Priſcillas</hi> heavenly, and rich in diſcourſe; the <hi>Bathesbis, Loyſes,</hi> and <hi>Eunices,</hi> carefull in the inſtructing of their Chil<g ref="char:EOLhyphen"/>dren in the knowledge of God; and finally, how that <hi>Catharina, Alexandria,</hi> being under the Tyranny of <hi>Maxcentius,</hi> was illuminated with divine knowledge from above, and conſtantly maintained the faith of the Goſpel.</p>
+                     <p>Secondly, you ſhall (in Mr. <hi>Hugh Peters</hi> his ſhort cut to a great quiet) find that work for a good Magi<g ref="char:EOLhyphen"/>ſtrate, which may ſtand with Religion, Mercy, and Juſtice: without which there can be no good ſettle<g ref="char:EOLhyphen"/>ment,
+<pb n="36" facs="tcp:153578:33"/> nor any Moddel framed, whereby all men may be found to obſerve Peace; the main ſecuring where<g ref="char:EOLhyphen"/>of muſt be ſetled by the framing of a good Conſci<g ref="char:EOLhyphen"/>ence: whereby the grand enemy of order, will be kept out and debarred.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>Why truly I muſt needs confeſſe that I have found ſo many truths, recorded of worthy women in the ſaid <hi>Elogium Heroinum,</hi> as that I greatly marvell how ſo many injurious Pamplets, have been pub<g ref="char:EOLhyphen"/>liſhed againſt them in <hi>England.</hi>
+                     </p>
+                     <p>Secondly, I have found ſo many obſervable things, <hi>in the good worke for a Magiſtrate,</hi> as that I cannot per<g ref="char:EOLhyphen"/>ſwade my ſelfe, but that if thoſe particulars which are therein mentioned, were ſetled here in <hi>England,</hi> this Nation might be juſtly termed a happy one indeed: in the which <hi>ſhort cut,</hi> if you obſerve it, there is alſo a ſpecification, how a good number of Women may be very well imployed.</p>
+                     <p>Finally, Its my conceite, that in caſe <hi>that honeſt Book, the Bible,</hi> be laid before thoſe who ſhall be ordained to preſcribe Rules and Lawes, as then we ſhall no more ſtand in need of thoſe Catterpillers, called Attornies and Solicitors; for that as then all men may be confi<g ref="char:EOLhyphen"/>dent, <hi>of a ſhort cut to a great quiet:</hi> as alſo that the Cheat will thereby be confounded to ſome purpoſe.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>I muſt needs tell you that ere long, you may ſee ſomewhat in Print on that ſubject: in the interim I ſhall believe that the condition of the Engliſh Nati<g ref="char:EOLhyphen"/>on, will be the more anſwerable unto the eſſence and conſtitution of a Common-wealth; whereas there ſhall be a Law, whereby the old Norman Law ſhall be extinguiſhed: that every man ſhall have liberty to debate his own caſe, before ſuch honeſt men as ſhall hear them <hi>gratis</hi>
+                     </p>
+                  </sp>
+                  <sp>
+                     <pb n="37" facs="tcp:153578:33"/>
+                     <speaker>Capt.</speaker>
+                     <p>Since you mention the word <hi>Gratis,</hi> I muſt aske you in the firſt place, whether you would not have three kind of men to act <hi>gratis? viz.</hi> Miniſters, Judges, and Phyſitians.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>Yes indeed, that I would; that is to ſay, I would have the State to maintain the Miniſters, the Judges, and the Phyſitians.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Capt.</speaker>
+                     <p>But what ſay you to the Law it ſelfe? unto Clyents, and their manner of addreſſes?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>Why marry, I would have the old Law firſt of all to be ſo deeply interred, as that it ſhould never riſe again, except at dooms-day, when as the corrupt Lawers themſelves ſhall be brought to their Tryall, without any <hi>Habeas Corpus,</hi> or reprieve at all.</p>
+                     <p>Secondly, I would have this Common-wealths Judges to be ſuch, as that the Scripture phraſe might be applyed unto them, <hi>viz. For that now, Saints ſhall judge the world.</hi> 1 Cor. ch. 6. v. 2. To the end that men might not hear thoſe reproaches which are mention<g ref="char:EOLhyphen"/>ed in the fifth verſ. of the ſame Chap. <hi>viz. I ſpeake it</hi> to your ſhame: is it ſo, that there is not a wiſe man a<g ref="char:EOLhyphen"/>mongſt you? no not one that ſhall be able to jugde be<g ref="char:EOLhyphen"/>tween his brethren?</p>
+                     <p>That ſo likewiſe the queſtion in 1 <hi>Cor. ch.</hi> 6. <hi>v.</hi> 1. may not be asked, <hi>viz.</hi> Doe any of you, having a matter a<g ref="char:EOLhyphen"/>gainſt aonther, go to Law, before the unjuſt, and not before the Saints?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Cap.</speaker>
+                     <p>But I pray you? where ſhall there be ſuch found amongſt Mortals, who inhabit fleſh and Clay?</p>
+                  </sp>
+                  <sp>
+                     <speaker>Freez.</speaker>
+                     <p>Thats a queſtion indeed, though it may be ſoon reſolved; For that whenſoever the Rulers ſhall fix on ſuch a reſolution, they may eaſily find out ſuch as will make good <hi>H. P.</hi> his ſaying, in his ſhort Cut to great eaſe; and by the proſecuting of this their deſigne, they may acquire unto their Government, the true forme of a Common-wealth.</p>
+                     <pb n="38" facs="tcp:153578:34"/>
+                     <p>For that at the very entrance of their framing a Plat-form to decide all controverſies, the which may ariſe between man and man in temporall matters, as well as in criminall; as al<g ref="char:EOLhyphen"/>ſo on the point of <hi>Meum,</hi> and <hi>Tuum;</hi> they may pitch on the meanes to remove all Cauſes whence the grand controverſies amongſt the moſt eminent's Families do ariſe: mark me well, and be not ſtartled at it; I ſay the cauſes which proceed, from an elder Lording brothers domineering over his younger brother, for naught forſooth, ſave that he hath a Title above him, that he hath an Eſtate, and that he therefore can ſpend and domineer like a little Tyrant over his ſlaves.</p>
+                     <p n="1">1. To prevent all which Fathers give to thy eldeſt Son a double portion, if you pleaſe but divide the reſt of the Eſtate equally amongſt your Children, as then they will be all Free Common-Wealths men, and not Bond-men, as then a ſecond, third, fourth; nay youngeſt brother more or leſſe, ſhall be able to do the States good ſervice, to live like a free man borne, and not be reduced unto deſperate courſes.</p>
+                     <p n="2">2. Moreover let all Fathers, appoint this double propor<g ref="char:EOLhyphen"/>tion to their eldeſt Sonnes conditionally; That is to ſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>y, in caſe he proves to be a vertuous man, in default whereof, let the younger brother have that double proportion, if he be more deſerving then the elder: whereby men will be brought to ſtudy godlineſſe and goodneſſe.</p>
+                     <p n="3">3. The ſecond main thing, which (in my conceit) is to be pitcht upon, is the ſettling of a general Record office, the practicall part whereof will for ever cut off a world of contentions, diſ-inable cheats from going on in their deſtructive courſes, and ſettle all men in their proprieties.</p>
+                     <p>In the third place, let your Rulers remove all Arreſts whatſoever, or Debts, and conſequently all impriſonments for the ſame.</p>
+                     <p n="4">4. Let them alſo abrogate the putting of men to death for Theft; Doth not the Text ſay, <hi>And if any man ſue thee at Law, and take away thy Coat, let him have thy Cloake alſo,</hi> Mat. 5. v. 40.</p>
+                     <p n="5">5. Why ſhould we urge the ſaying, <hi>An eye for an eye, and a tooth for a tooth,</hi> for that it would ſeem to be a piece of injuſtice, to put out the eye of a man, who hath but one, for having put out anothers, who had two: and ſo likewiſe with the Teeth, in which regard to my thinking, the ſcripture old Law might be diſpenſ'd withall.</p>
+                     <p n="6">6. Let no Marriages be lawfull, without the Parents conſent.</p>
+                     <p>And this is all which you ſhall have from me for the preſent, leaſt the five and three man ſhould ſtep in again; and that the merry grig ſhould have cauſe to urge his former ſaying, and to laugh at us by his inferring. <hi>That to meddle with nothing is best.</hi>
+                     </p>
+                  </sp>
+                  <trailer>FINIS.</trailer>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
